@@ -51,6 +51,7 @@ const About = () => {
     <section className="padding" id="about">
       <img className="background" src={image} alt={imageAltText} />
       <div
+        className="slideIn"
         style={{
           backgroundColor: "white",
           width: "50%",

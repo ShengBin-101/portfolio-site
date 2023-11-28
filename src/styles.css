@@ -12,6 +12,50 @@ body {
   overflow-x: hidden;
   padding: 0;
   width: 100%;
+  scroll-behavior: smooth;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+img.slideIn {
+  animation: bounce 2s infinite;
+}
+
+/*img.slideIn.visible {
+  transform: translateX(0);
+  opacity: 1;
+} */
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(-50%);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 
 div#main {
@@ -31,6 +75,19 @@ section.min-height {
 
 section.padding {
   padding: 5rem 0;
+}
+
+section img.viet_bg {
+  animation: "slideIn" 1s ease-in-out;
+  height: 100%;
+  left: 50%;
+  object-fit: cover;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  transform: translate(-50%, 0);
+  width: 100vmax;
+  z-index: -1;
 }
 
 section img.background {
