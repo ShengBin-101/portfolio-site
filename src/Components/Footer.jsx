@@ -105,9 +105,9 @@ const Footer = (props) => {
         )}
         {youTube && (
           <a
-            href={`https://www.youtube.com/c/${youTube}`}
-            target="_blank"
-            rel="noopener noreferrer"
+            href={`https://www.youtube.com/${youTube}`}
+            // target="_blank"
+            // rel="noopener noreferrer"
           >
             <img src={youTubeIcon} alt="YouTube" className="socialIcon" />
           </a>
