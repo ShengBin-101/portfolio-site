@@ -42,7 +42,7 @@ const Portfolio = () => {
   return (
     <section className="padding" id="portfolio">
       <h2 style={{ textAlign: "center" }}>Projects</h2>
-      <div style={{ display: "flex", paddingTop: "2rem"}}>
+      <div style={{ display: "flex", paddingTop: "2rem" }}>
         <div className="container">
           <div style={{ maxWidth: "80%", maxHeight: "80%" }}>
             <img
