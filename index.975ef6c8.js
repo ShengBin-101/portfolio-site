@@ -27227,7 +27227,7 @@ const About = ()=>{
                 className: "slideIn",
                 style: {
                     backgroundColor: "white",
-                    width: "50%",
+                    width: "70%",
                     padding: "4rem",
                     margin: "3rem auto",
                     textAlign: "center"
@@ -27272,8 +27272,8 @@ const About = ()=>{
                             textAlign: "left",
                             columns: 2,
                             fontSize: "1.25rem",
-                            margin: "2rem 2rem",
-                            gap: "2rem"
+                            margin: "2rem 1rem",
+                            gap: "1rem"
                         },
                         children: languagesList.map((skill)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                 children: skill
@@ -27299,8 +27299,8 @@ const About = ()=>{
                             textAlign: "left",
                             columns: 2,
                             fontSize: "1.25rem",
-                            margin: "2rem 2rem",
-                            gap: "2rem"
+                            margin: "2rem 1rem",
+                            gap: "1rem"
                         },
                         children: hardwareList.map((skill)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                 children: skill
@@ -28745,24 +28745,28 @@ const Home = ({ name , title  })=>{
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 style: {
-                    position: "absolute",
+                    position: "sticky",
                     top: "5rem",
                     left: "2rem",
-                    width: "17rem"
+                    width: "40%",
+                    color: "white",
+                    textShadow: "2px 2px 4px rgba(0, 0, 0, 0.9)"
                 },
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                        className: "name",
                         children: name
                     }, void 0, false, {
                         fileName: "src/Components/Home.jsx",
-                        lineNumber: 32,
+                        lineNumber: 41,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                        className: "title",
                         children: title
                     }, void 0, false, {
                         fileName: "src/Components/Home.jsx",
-                        lineNumber: 33,
+                        lineNumber: 42,
                         columnNumber: 9
                     }, undefined)
                 ]
@@ -28774,7 +28778,7 @@ const Home = ({ name , title  })=>{
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 style: {
                     position: "absolute",
-                    bottom: "3rem",
+                    bottom: "0.5rem",
                     left: "50%"
                 },
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -28787,12 +28791,12 @@ const Home = ({ name , title  })=>{
                     alt: imageAltText
                 }, void 0, false, {
                     fileName: "src/Components/Home.jsx",
-                    lineNumber: 36,
+                    lineNumber: 45,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/Components/Home.jsx",
-                lineNumber: 35,
+                lineNumber: 44,
                 columnNumber: 7
             }, undefined)
         ]
@@ -28866,7 +28870,29 @@ const imageAltText = "robot traversing maze";
     {
         title: "mBot - Maze Solving Robot \uD83E\uDD16",
         description: "Autonomous robot that can solve a maze, detect and process data from the environment using Arduino Uno.",
-        url: "https://github.com/ShengBin-101/CG1111A-Final-Project"
+        url: "https://github.com/ShengBin-101/CG1111A-Final-Project",
+        tag: [
+            "Arduino"
+        ]
+    },
+    {
+        title: "Intelligent Transport System (ITS) \uD83D\uDEA6",
+        description: "Streamlines on-campus Autonomous Vehicle(MooVita) trials with dynamic roadblocks. Cameras monitor traffic for real-time traffic analysis and Microcontrollers enable traffic prioritization at junctions.",
+        url: "https://github.com/tanxuanyun/Tiny_YOLO_Vehicle_Detection_and_Counting",
+        tag: [
+            "Microcontroller (ESP32)",
+            "Deep Learning (Tiny-Yolo)"
+        ]
+    },
+    {
+        title: "Autonomous Robot Car \uD83D\uDE97",
+        description: "Developed teaching materials to guide students with hardware/electronics assembly and ROS basics to future students.",
+        url: "",
+        tag: [
+            "ROS",
+            "3D CAD",
+            "Raspberry Pi"
+        ]
     }, 
 ];
 const Portfolio = ()=>{
@@ -28881,21 +28907,19 @@ const Portfolio = ()=>{
                 children: "Projects"
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 44,
+                lineNumber: 59,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 style: {
-                    display: "flex",
-                    paddingTop: "2rem"
+                    paddingTop: "2 rem"
                 },
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                     className: "container",
                     children: [
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                             style: {
-                                maxWidth: "80%",
-                                maxHeight: "80%"
+                                display: "grid"
                             },
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                 src: (0, _mbotGifDefault.default),
@@ -28903,17 +28927,20 @@ const Portfolio = ()=>{
                                 style: {
                                     animation: "2s ease-out 0s 1 slideInLeft",
                                     objectFit: "cover",
-                                    borderRadius: "10px"
+                                    borderRadius: "10px",
+                                    justifySelf: "center",
+                                    width: "100%",
+                                    maxWidth: "200px"
                                 },
                                 alt: imageAltText
                             }, void 0, false, {
                                 fileName: "src/Components/Portfolio.jsx",
-                                lineNumber: 48,
+                                lineNumber: 63,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/Components/Portfolio.jsx",
-                            lineNumber: 47,
+                            lineNumber: 62,
                             columnNumber: 11
                         }, undefined),
                         projectList.map((project)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28930,43 +28957,59 @@ const Portfolio = ()=>{
                                             children: project.title
                                         }, void 0, false, {
                                             fileName: "src/Components/Portfolio.jsx",
-                                            lineNumber: 62,
+                                            lineNumber: 80,
                                             columnNumber: 17
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 61,
+                                        lineNumber: 79,
                                         columnNumber: 15
                                     }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                        className: "small",
-                                        children: project.description
-                                    }, void 0, false, {
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                className: "small",
+                                                children: project.description
+                                            }, void 0, false, {
+                                                fileName: "src/Components/Portfolio.jsx",
+                                                lineNumber: 83,
+                                                columnNumber: 17
+                                            }, undefined),
+                                            project.tag.map((tag)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                    className: "tag",
+                                                    children: tag
+                                                }, tag, false, {
+                                                    fileName: "src/Components/Portfolio.jsx",
+                                                    lineNumber: 85,
+                                                    columnNumber: 19
+                                                }, undefined))
+                                        ]
+                                    }, void 0, true, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 64,
+                                        lineNumber: 82,
                                         columnNumber: 15
                                     }, undefined)
                                 ]
                             }, project.title, true, {
                                 fileName: "src/Components/Portfolio.jsx",
-                                lineNumber: 60,
+                                lineNumber: 78,
                                 columnNumber: 13
                             }, undefined))
                     ]
                 }, void 0, true, {
                     fileName: "src/Components/Portfolio.jsx",
-                    lineNumber: 46,
+                    lineNumber: 61,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 45,
+                lineNumber: 60,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/Portfolio.jsx",
-        lineNumber: 43,
+        lineNumber: 58,
         columnNumber: 5
     }, undefined);
 };
