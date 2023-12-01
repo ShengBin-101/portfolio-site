@@ -54,7 +54,7 @@ const About = () => {
         className="slideIn"
         style={{
           backgroundColor: "white",
-          width: "50%",
+          width: "70%",
           padding: "4rem",
           margin: "3rem auto",
           textAlign: "center",
@@ -70,8 +70,8 @@ const About = () => {
             textAlign: "left",
             columns: 2,
             fontSize: "1.25rem",
-            margin: "2rem 2rem",
-            gap: "2rem",
+            margin: "2rem 1rem",
+            gap: "1rem",
           }}
         >
           {languagesList.map((skill) => (
@@ -84,8 +84,8 @@ const About = () => {
             textAlign: "left",
             columns: 2,
             fontSize: "1.25rem",
-            margin: "2rem 2rem",
-            gap: "2rem",
+            margin: "2rem 1rem",
+            gap: "1rem",
           }}
         >
           {hardwareList.map((skill) => (

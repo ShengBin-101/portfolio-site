@@ -70,11 +70,11 @@ section {
 }
 
 section.min-height {
-  min-height: 100vh;
+  min-height: 50vh;
 }
 
 section.padding {
-  padding: 5rem 0;
+  padding: 1rem 0;
 }
 
 section img.viet_bg {
@@ -110,6 +110,23 @@ h1 {
   margin: 0;
 }
 
+h1.name {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 4rem;
+  font-weight: 400;
+  line-height: 0.8;
+  margin: 0;
+}
+
+
+h2.title {
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 h2 {
   font-size: 2rem;
   font-weight: 400;
@@ -135,7 +152,19 @@ p.large {
 }
 
 p.small {
-  font-size: 15px;
+  font-size: 14px;
+}
+
+p.tag{
+
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #8e69be;
+  border-radius: 5px;
+  border: 1px solid #8e69be;
+  padding: 10px;
 }
 
 hr {
@@ -162,18 +191,20 @@ a:hover {
 .container {
   display: grid;
   grid-gap: 20px;
-  grid-template-columns: 330px 300px;
-  margin: 20px auto;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  padding: 10px 25%;
 }
 
 .container .box {
+  flex-direction: column;
+  display: flex;
   border-radius: 10px;
   border: 1px solid rgb(204, 204, 204);
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  justify-content: space-between;
   padding: 24px 16px;
   text-align: center;
+  max-width: 300px;
 }
 
 img.socialIcon {

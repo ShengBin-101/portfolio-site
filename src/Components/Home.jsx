@@ -28,11 +28,20 @@ const Home = ({ name, title }) => {
   return (
     <section id="home" className="min-height">
       <img className="viet_bg" src={image} alt="" />
-      <div style={{ position: "absolute", top: "5rem", left: "2rem", width: "17rem" }}>
-        <h1>{name}</h1>
-        <h2>{title}</h2>
+      <div
+        style={{
+          position: "sticky",
+          top: "5rem",
+          left: "2rem",
+          width: "40%",
+          color: "white",
+          textShadow: "2px 2px 4px rgba(0, 0, 0, 0.9)",
+        }}
+      >
+        <h1 className="name">{name}</h1>
+        <h2 className="title">{title}</h2>
       </div>
-      <div style={{ position: "absolute", bottom: "3rem", left: "50%" }}>
+      <div style={{ position: "absolute", bottom: "0.5rem", left: "50%" }}>
         <img
           className="slideIn"
           src={arrowSvg}

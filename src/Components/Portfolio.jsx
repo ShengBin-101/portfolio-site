@@ -35,6 +35,21 @@ const projectList = [
     description:
       "Autonomous robot that can solve a maze, detect and process data from the environment using Arduino Uno.",
     url: "https://github.com/ShengBin-101/CG1111A-Final-Project",
+    tag: ["Arduino"],
+  },
+  {
+    title: "Intelligent Transport System (ITS) 🚦",
+    description:
+      "Streamlines on-campus Autonomous Vehicle(MooVita) trials with dynamic roadblocks. Cameras monitor traffic for real-time traffic analysis and Microcontrollers enable traffic prioritization at junctions.",
+    url: "https://github.com/tanxuanyun/Tiny_YOLO_Vehicle_Detection_and_Counting",
+    tag: ["Microcontroller (ESP32)", "Deep Learning (Tiny-Yolo)"],
+  },
+  {
+    title: "Autonomous Robot Car 🚗",
+    description:
+      "Developed teaching materials to guide students with hardware/electronics assembly and ROS basics to future students.",
+    url: "",
+    tag: ["ROS", "3D CAD", "Raspberry Pi"],
   },
 ];
 
@@ -42,9 +57,9 @@ const Portfolio = () => {
   return (
     <section className="padding" id="portfolio">
       <h2 style={{ textAlign: "center" }}>Projects</h2>
-      <div style={{ display: "flex", paddingTop: "2rem" }}>
+      <div style={{ paddingTop: "2 rem" }}>
         <div className="container">
-          <div style={{ maxWidth: "80%", maxHeight: "80%" }}>
+          <div style={{ display: "grid" }}>
             <img
               src={image}
               className="slideIn"
@@ -52,6 +67,9 @@ const Portfolio = () => {
                 animation: "2s ease-out 0s 1 slideInLeft",
                 objectFit: "cover",
                 borderRadius: "10px",
+                justifySelf: "center",
+                width: "100%",
+                maxWidth: "200px",
               }}
               alt={imageAltText}
             />
@@ -61,7 +79,14 @@ const Portfolio = () => {
               <a href={project.url} target="_blank" rel="noopener noreferrer">
                 <h3 style={{ flexBasis: "40px" }}>{project.title}</h3>
               </a>
-              <p className="small">{project.description}</p>
+              <div>
+                <p className="small">{project.description}</p>
+                {project.tag.map((tag) => (
+                  <p className="tag" key={tag}>
+                    {tag}
+                  </p>
+                ))}
+              </div>
             </div>
           ))}
         </div>
