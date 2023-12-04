@@ -6,7 +6,7 @@
 
 html,
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   height: 100%;
   margin: 0;
   overflow-x: hidden;
@@ -75,6 +75,7 @@ section.min-height {
 
 section.padding {
   padding: 1rem 0;
+  
 }
 
 section img.viet_bg {
@@ -125,6 +126,7 @@ h2.title {
   margin: 0;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  text-transform: uppercase;
 }
 
 h2 {
@@ -135,6 +137,7 @@ h2 {
 }
 
 h3 {
+  
   font-weight: 400;
   font-size: 1.25rem;
   margin: 0;
@@ -153,6 +156,7 @@ p.large {
 
 p.small {
   font-size: 14px;
+  
 }
 
 p.tag{
@@ -173,6 +177,7 @@ hr {
 
 li {
   line-height: 1.7;
+  
 }
 
 li::marker {
@@ -210,4 +215,68 @@ a:hover {
 img.socialIcon {
   height: 30px;
   width: 30px;
+}
+
+section#education {
+  background-color: #f9f9f9;
+  padding: 2rem;
+}
+
+.dropdown-content {
+  background: rgb(176, 201, 224);
+
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1.5rem;
+  max-height: 500px;
+  word-wrap: break-word;
+  border-left: 0.5rem solid #e1701a;
+  border-radius: 0.25rem;
+  overflow: hidden;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    max-height: 0;
+
+  }
+  100% {
+    opacity: 1;
+    max-height: 500px;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+    max-height: 500px;
+  }
+  100% {
+    opacity: 0;
+    max-height: 0;
+  }
+}
+
+.dropdown-content.closed {
+  animation: fadeOut 0.5s ease-in forwards;
+}
+
+.dropdown-content.open {
+  animation: fadeIn 0.5s ease-in forwards;
+
+}
+
+.dropdown-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 1.5rem;
+  font-weight: 350;
+  padding-top: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

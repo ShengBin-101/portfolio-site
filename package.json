@@ -4,7 +4,6 @@
   "description": "Sheng Bin's portfolio site",
   "source": "src/index.html",
   "homepage": "https://shengbin-101.github.io/portfolio-site/",
-
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
@@ -23,7 +22,8 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.1"
   },
   "devDependencies": {
     "eslint": "^8.23.0",

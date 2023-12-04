@@ -5,12 +5,13 @@
  */
 
 import React from "react";
-
 import About from "./Components/About";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import Home from "./Components/Home";
 import Portfolio from "./Components/Portfolio";
+import Education from "./Components/Education";
+
 
 import "./styles.css";
 
@@ -24,7 +25,7 @@ import "./styles.css";
  * If you don't have one of the social sites listed, leave it as an empty string.
  */
 const siteProps = {
-  name: "Sheng Bin",
+  name: "Sheng Bin 🧊🧊",
   title: " Software Engineer | Student",
   email: "shengbin.chan@u.nus.edu",
   gitHub: "ShengBin-101",
@@ -44,6 +45,7 @@ const App = () => {
       <Header />
       <Home name={siteProps.name} title={siteProps.title} />
       <About />
+      <Education />
       <Portfolio />
       <Footer {...siteProps} primaryColor={primaryColor} secondaryColor={secondaryColor} />
     </div>
