@@ -328,6 +328,11 @@ section#projects {
   min-width: 10px;
   max-height: 20vw;
   margin-right: 2vw;
+  transition: transform .3s;
+}
+
+.project-image img:hover {
+  transform: scale(1.1);
 }
 
 .project-description {
