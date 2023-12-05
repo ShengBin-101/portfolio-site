@@ -1,4 +1,20 @@
 @import "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Montserrat:wght@200;400;600;800&display=swap";
+.responsive-section {
+  flex-flow: column wrap;
+  align-items: center;
+  display: flex;
+}
+
+@media (min-width: 600px) {
+  .responsive-section .responsive-header .content {
+    width: 50%;
+  }
+
+  .project-content {
+    flex-direction: row;
+  }
+}
+
 :root {
   --primary-color: #4e567e;
   --secondary-color: #8e69be;
@@ -103,8 +119,8 @@ section img.background {
 h1 {
   font-family: var(--primary-font);
   margin: 0;
-  padding-top: 1rem;
-  font-size: 3rem;
+  padding-top: 2vw;
+  font-size: 5vw;
   font-weight: 400;
   line-height: .8;
 }
@@ -113,9 +129,9 @@ h2.title {
   font-family: var(--primary-font);
   text-transform: uppercase;
   margin: 0;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  font-size: 1.25rem;
+  padding-top: 2vw;
+  padding-bottom: 1vw;
+  font-size: 3vw;
   font-weight: 800;
 }
 
@@ -126,25 +142,25 @@ h2 {
 
 h3 {
   margin: 0;
-  font-size: 1.25rem;
+  font-size: 2vw;
   font-weight: 400;
 }
 
 p {
   margin-bottom: 0;
-  font-size: 18px;
+  font-size: 1.5vw;
   font-weight: 300;
   line-height: 1.5;
 }
 
 p.large {
-  width: 70%;
-  margin: 40px auto 0;
-  font-size: 24px;
+  width: 100%;
+  margin: 4vw auto 0;
+  font-size: 2vw;
 }
 
 p.small {
-  font-size: 14px;
+  font-size: 1vw;
 }
 
 p.tag {
@@ -153,8 +169,8 @@ p.tag {
   color: #8e69be;
   border: 1px solid #8e69be;
   border-radius: 5px;
-  padding: 10px;
-  font-size: 12px;
+  padding: .25vw;
+  font-size: 1vw;
   font-weight: 600;
 }
 
@@ -172,6 +188,7 @@ li::marker {
 
 a {
   color: #000;
+  font-size: 2vw;
   text-decoration: none;
 }
 
@@ -180,31 +197,44 @@ a:hover {
 }
 
 img.socialIcon {
-  height: 30px;
-  width: 30px;
+  height: 3vw;
+  width: 3vw;
+}
+
+.responsive-header {
+  width: 100%;
+  z-index: 10;
+  max-height: 2vw;
+  background: #ffffffbf;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2vw;
+  display: flex;
+  position: fixed;
+  top: 0;
 }
 
 section#about {
   background-color: #7fb2f1;
-  font-size: 1.5rem;
+  font-size: 1.5vw;
   display: block;
 }
 
 .about-content {
   text-align: center;
-  margin: 1rem;
-  padding-inline: 100px;
+  margin: 1vw;
+  padding-inline: 10vw;
 }
 
 .skills-wrapper {
-  grid-gap: 10px;
-  grid-template-columns: repeat(2, minmax(500px, 1fr));
+  grid-gap: 2vw;
+  grid-template-columns: repeat(2, minmax(30vw, 1fr));
   justify-items: center;
-  font-size: 2rem;
+  font-size: 2vw;
   display: grid;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
   .skills-wrapper {
     grid-template-columns: 1fr;
   }
@@ -213,7 +243,7 @@ section#about {
 p.skill-label {
   margin-block: 1em;
   margin-inline: 0;
-  font-size: 1.17em;
+  font-size: 3.5vw;
   font-weight: bold;
   display: block;
 }
@@ -227,7 +257,7 @@ p.skill-label {
 
 .skill-item {
   color: #000;
-  margin-top: 5pm;
+  margin-top: 1vw;
   padding-bottom: 5px;
   transition: color .3s;
 }
@@ -236,15 +266,18 @@ p.skill-label {
   color: #96eaff;
 }
 
-section#education {
+h2.education {
   text-align: center;
+}
+
+section#education {
+  font-size: (1rem + .5vw);
   background-color: #f9f9f9;
-  font-size: 1.5rem;
 }
 
 .education-content {
-  text-align: left;
-  padding-inline: 100px;
+  align-items: left;
+  padding-inline: 4rem;
 }
 
 .dropdown-content {
@@ -257,6 +290,7 @@ section#education {
   padding-bottom: 1.5rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+  font-size: 1.25vw;
   display: block;
   overflow: hidden;
 }
@@ -300,23 +334,25 @@ section#education {
   outline: none;
   padding-top: 1rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 1.5rem;
+  font-size: 2vw;
   font-weight: 350;
 }
 
 section#projects {
   text-align: center;
+  font-size: (1rem + .5vw);
   background-color: #eef1ff;
-  font-size: 1.5rem;
 }
 
 .container {
-  flex-direction: column;
+  flex-flow: column wrap;
   align-items: center;
   display: flex;
 }
 
 .project-content {
+  width: 100%;
+  flex-direction: row;
   align-items: center;
   margin-block: .5em;
   display: flex;
@@ -325,7 +361,7 @@ section#projects {
 .project-image img {
   width: 15vw;
   max-width: 15vw;
-  min-width: 10px;
+  min-width: 10vw;
   max-height: 20vw;
   margin-right: 2vw;
   transition: transform .3s;
@@ -336,10 +372,10 @@ section#projects {
 }
 
 .project-description {
-  width: 400px;
+  width: 40vw;
   border: 1px solid #ccc;
   border-radius: 10px;
-  padding: 24px 16px;
+  padding: 2.5vw 16px;
 }
 
 /*# sourceMappingURL=index.4d663569.css.map */
