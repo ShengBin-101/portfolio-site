@@ -7,7 +7,7 @@ const Education = () => {
   return (
     <section className="education" id="education">
       <h2>Education</h2>
-      <div>
+      <div className="education-content">
         <button className="dropdown-toggle" onClick={() => toggleOpen(!isOpen)}>
           {isOpen ? "▼ National University of Singapore [2023 - 2026]" : "▲ National University of Singapore [2023 - 2026]"}
         </button>
@@ -38,7 +38,7 @@ const Education = () => {
         )}
       </div>
 
-      <div>
+      <div className="education-content">
         <button className="dropdown-toggle" onClick={() => toggleOpen2(!isOpen2)}>
           {isOpen2 ? "▼ Ngee Ann Polytechnic [2018 - 2021]" : "▲ Ngee Ann Polytechnic [2018 - 2021]"}
         </button>

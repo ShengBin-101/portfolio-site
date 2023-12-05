@@ -19,8 +19,10 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/mbot.gif";
-
+import mbot_image from "../images/mbot.gif";
+import its_image from "../images/ITS.gif";
+import rnd_image from "../images/rnd_robot.gif";
+import lego_image from "../images/lego_opencv.gif";
 const imageAltText = "robot traversing maze";
 
 /**
@@ -36,6 +38,7 @@ const projectList = [
       "Autonomous robot that can solve a maze, detect and process data from the environment using Arduino Uno.",
     url: "https://github.com/ShengBin-101/CG1111A-Final-Project",
     tag: ["Arduino"],
+    image: mbot_image,
   },
   {
     title: "Intelligent Transport System (ITS) 🚦",
@@ -43,53 +46,53 @@ const projectList = [
       "Streamlines on-campus Autonomous Vehicle(MooVita) trials with dynamic roadblocks. Cameras monitor traffic for real-time traffic analysis and Microcontrollers enable traffic prioritization at junctions.",
     url: "https://github.com/tanxuanyun/Tiny_YOLO_Vehicle_Detection_and_Counting",
     tag: ["Microcontroller (ESP32)", "Deep Learning (Tiny-Yolo)"],
+    image: its_image,
   },
   {
     title: "Autonomous Robot Car 🚗",
     description:
       "Developed teaching materials to guide students with hardware/electronics assembly and ROS basics to future students.",
-    url: "",
     tag: ["ROS", "3D CAD", "Raspberry Pi"],
+    image: rnd_image,
+  },
+  {
+    title: "Lego Brick Detection 📷",
+    description:
+      "A lego detection and sorting program.",
+    url: "https://github.com/ShengBin-101/lego-brick-detection",
+    tag: ["Python", "OpenCV", "HTML/CSS/JavaScript"],
+    image: lego_image,
   },
 ];
 
 const Portfolio = () => {
   return (
-    <section className="padding" id="portfolio">
-      <h2 style={{ textAlign: "center" }}>Projects</h2>
-      <div style={{ paddingTop: "2 rem" }}>
-        <div className="container">
-          <div style={{ display: "grid" }}>
-            <img
-              src={image}
-              className="slideIn"
-              style={{
-                animation: "2s ease-out 0s 1 slideInLeft",
-                objectFit: "cover",
-                borderRadius: "10px",
-                justifySelf: "center",
-                width: "100%",
-                maxWidth: "200px",
-              }}
-              alt={imageAltText}
-            />
-          </div>
-          {projectList.map((project) => (
-            <div className="box" key={project.title}>
-              <a href={project.url} target="_blank" rel="noopener noreferrer">
-                <h3 style={{ flexBasis: "40px" }}>{project.title}</h3>
-              </a>
-              <div>
-                <p className="small">{project.description}</p>
-                {project.tag.map((tag) => (
-                  <p className="tag" key={tag}>
-                    {tag}
-                  </p>
-                ))}
+    <section className="padding" id="projects">
+      <h2>Projects</h2>
+      <div className="container">
+        {projectList.map((project) => (
+          <div key={project.title}>
+            <div className="project-content">
+              <div className="project-image">
+                <img src={project.image} alt={project.title} />
+              </div>
+
+              <div className="project-description">
+                <a href={project.url} target="_blank" rel="noopener noreferrer">
+                  <h3>{project.title}</h3>
+                </a>
+                <div>
+                  <p className="small">{project.description}</p>
+                  {project.tag.map((tag) => (
+                    <p className="tag" key={tag}>
+                      {tag}
+                    </p>
+                  ))}
+                </div>
               </div>
             </div>
-          ))}
-        </div>
+          </div>
+        ))}
       </div>
     </section>
   );

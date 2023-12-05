@@ -2,11 +2,21 @@
 * CSS file to hold styles that apply across the application
 */
 
+
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Montserrat:wght@200;400;600;800&display=swap");
+
+:root {
+  --primary-color: #4e567e;
+  --secondary-color: #8e69be;
+  --tertiary-color: #e1701a;
+  --header-font: "Cormorant Garamond", serif;
+  --primary-font: monospace, monospace;
+  --secondary-font: monospace, monospace;
+}
 
 html,
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: var(--primary-font);
   height: 100%;
   margin: 0;
   overflow-x: hidden;
@@ -14,28 +24,6 @@ body {
   width: 100%;
   scroll-behavior: smooth;
 }
-
-@keyframes bounce {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-20px);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
-
-img.slideIn {
-  animation: bounce 2s infinite;
-}
-
-/*img.slideIn.visible {
-  transform: translateX(0);
-  opacity: 1;
-} */
-
 @keyframes slideIn {
   0% {
     transform: translateX(-100%);
@@ -57,6 +45,22 @@ img.slideIn {
     opacity: 1;
   }
 }
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+img.arrow {
+  animation: bounce 2s infinite;
+
+}
 
 div#main {
   display: flex;
@@ -71,11 +75,6 @@ section {
 
 section.min-height {
   min-height: 50vh;
-}
-
-section.padding {
-  padding: 1rem 0;
-  
 }
 
 section img.viet_bg {
@@ -104,25 +103,19 @@ section img.background {
 }
 
 h1 {
-  font-family: "Cormorant Garamond", serif;
-  font-size: 7rem;
+  font-family: var(--primary-font);
+  font-size: 3rem;
   font-weight: 400;
-  line-height: 0.8;
   margin: 0;
-}
-
-h1.name {
-  font-family: "Cormorant Garamond", serif;
-  font-size: 4rem;
-  font-weight: 400;
+  padding-top: 1rem;
   line-height: 0.8;
-  margin: 0;
 }
 
 
 h2.title {
-  font-size: 1rem;
-  font-weight: 400;
+  font-family: var(--primary-font);
+  font-size: 1.25rem;
+  font-weight: 800;
   margin: 0;
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -130,10 +123,8 @@ h2.title {
 }
 
 h2 {
-  font-size: 2rem;
-  font-weight: 400;
-  margin: 0;
-  padding-top: 1rem;
+  font-family: var(--primary-font);
+  font-size: 3em;
 }
 
 h3 {
@@ -152,6 +143,9 @@ p {
 
 p.large {
   font-size: 24px;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 40px;
 }
 
 p.small {
@@ -193,37 +187,87 @@ a:hover {
   color: #4e567e;
 }
 
-.container {
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: 1fr 1fr;
-  justify-content: center;
-  padding: 10px 25%;
-}
 
-.container .box {
-  flex-direction: column;
-  display: flex;
-  border-radius: 10px;
-  border: 1px solid rgb(204, 204, 204);
-  justify-content: space-between;
-  padding: 24px 16px;
-  text-align: center;
-  max-width: 300px;
-}
 
 img.socialIcon {
   height: 30px;
   width: 30px;
 }
 
+/* About Section */
+
+section#about {
+  display: block;
+  background-color: #7fb2f1;
+  font-size: 1.5rem;
+}
+
+.about-content {
+  margin: 1rem;
+  text-align: center;
+  padding-inline: 100px;
+}
+
+.skills-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(500px, 1fr)); /* Adjust the 200px to fit your content */
+  grid-gap: 10px; /* Adjust as needed */
+  justify-items: center;
+
+  font-size: 2rem;
+}
+
+/* When the browser size is 800px or less, change the grid to 1 column */
+@media (max-width: 1000px) {
+  .skills-wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+
+p.skill-label {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.skills-container {
+  font-family: var(--secondary-font);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+.skill-item {
+  color:rgb(0, 0, 0); /* Change to the color you want */
+  margin-top: 5pm; /* Adjust as needed */
+  transition: color 0.3s ease; /* This will animate the color change */
+  padding-bottom: 5px; /* Add some padding so the content isn't too close to the border */
+}
+
+.skill-item:hover {
+  color: rgb(150, 234, 255); /* Change to the color you want on hover */
+}
+
+/* Education Section */
+
 section#education {
   background-color: #f9f9f9;
-  padding: 2rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.education-content {
+  padding-inline: 100px;
+  text-align: left;
 }
 
 .dropdown-content {
-  background: rgb(176, 201, 224);
+  background: rgb(192, 218, 241);
 
   display: block;
   margin-block-start: 1em;
@@ -279,4 +323,40 @@ section#education {
   font-weight: 350;
   padding-top: 1rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Section for Projects */
+section#projects {
+  background-color: rgb(238, 241, 255);
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.project-content {
+  display: flex; 
+  align-items: center; 
+  margin-block: 0.5em;
+}
+
+.project-image img {
+  width: 15vw; /* Adjust as needed */
+  max-width: 15vw; /* Prevent the image from becoming too large */
+  min-width: 10px; /* Prevent the image from becoming too small */
+  max-height: 20vw;
+  margin-right: 2vw; /* Add some space between the image and the description */
+}
+
+.project-description {
+  width: 400px; /* Define a fixed width for the description column */
+  border-radius: 10px;
+  border: 1px solid rgb(204, 204, 204);
+  padding: 24px 16px;
 }

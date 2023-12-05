@@ -43,7 +43,7 @@ const Home = ({ name, title }) => {
       </div>
       <div style={{ position: "absolute", bottom: "0.5rem", left: "50%" }}>
         <img
-          className="slideIn"
+          className="arrow"
           src={arrowSvg}
           style={{ height: "3rem", width: "3rem" }}
           alt={imageAltText}

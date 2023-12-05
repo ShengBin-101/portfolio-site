@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Sheng Bin's portfolio site",
   "source": "src/index.html",
-  "homepage": "https://shengbin-101.github.io/portfolio-site/",
+  "homepage": "https://probable-space-guacamole-xvjqprvr9xrfrwv-1234.app.github.dev/",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",

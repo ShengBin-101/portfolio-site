@@ -16,9 +16,6 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
-
-const imageAltText = "purple and blue abstract background";
 
 /**
  * Sort description that expands on your title on the Home component.
@@ -49,79 +46,48 @@ const detailOrQuote =
 const About = () => {
   return (
     <section className="padding" id="about">
-      <img className="background" src={image} alt={imageAltText} />
-      <div
-        className="slideIn"
-        style={{
-          backgroundColor: "white",
-          width: "70%",
-          padding: "4rem",
-          margin: "3rem auto",
-          textAlign: "center",
-        }}
-      >
+      <div className="about-content">
         <h2>About Myself</h2>
         <p className="large">{description}</p>
-        <hr />
+        <p className="large">{detailOrQuote}</p>
+        <br />
         <h2>Skills</h2>
-        <h4>Programming Languages</h4>
-        <ul
-          style={{
-            textAlign: "left",
-            columns: 2,
-            fontSize: "1.25rem",
-            margin: "2rem 1rem",
-            gap: "1rem",
-          }}
-        >
-          {languagesList.map((skill) => (
-            <li key={skill}>{skill}</li>
-          ))}
-        </ul>
-        <h4>Hardware</h4>
-        <ul
-          style={{
-            textAlign: "left",
-            columns: 2,
-            fontSize: "1.25rem",
-            margin: "2rem 1rem",
-            gap: "1rem",
-          }}
-        >
-          {hardwareList.map((skill) => (
-            <li key={skill}>{skill}</li>
-          ))}
-        </ul>
-        <h4>Web Development</h4>
-        <ul
-          style={{
-            textAlign: "left",
-            columns: 2,
-            fontSize: "1.25rem",
-            margin: "2rem 2rem",
-            gap: "2rem",
-          }}
-        >
-          {webList.map((skill) => (
-            <li key={skill}>{skill}</li>
-          ))}
-        </ul>
-        <h4>Others</h4>
-        <ul
-          style={{
-            textAlign: "left",
-            columns: 2,
-            fontSize: "1.25rem",
-            margin: "2rem 2rem",
-            gap: "2rem",
-          }}
-        >
-          {otherList.map((skill) => (
-            <li key={skill}>{skill}</li>
-          ))}
-        </ul>
-        <hr />
-        <p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
+        <div className="skills-wrapper">
+          <div className="skills-container">
+            <p className="skill-label">Programming Languages</p>
+            {languagesList.map((skill, index) => (
+              <div key={index} className="skill-item">
+                {skill}
+              </div>
+            ))}
+          </div>
+          <div className="skills-container">
+            <p className="skill-label">Web Development</p>
+            {webList.map((skill, index) => (
+              <div key={index} className="skill-item">
+                {skill}
+              </div>
+            ))}
+          </div>
+          <div className="skills-container">
+            <p className="skill-label">Hardware</p>
+            {hardwareList.map((skill, index) => (
+              <div key={index} className="skill-item">
+                {skill}
+              </div>
+            ))}
+          </div>
+          <div className="skills-container">
+            <p className="skill-label">Others</p>
+            {otherList.map((skill, index) => (
+              <div key={index} className="skill-item">
+                {skill}
+              </div>
+            ))}
+          </div>
+        </div>
+        <br />
+        <br />
       </div>
     </section>
   );
