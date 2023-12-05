@@ -47,17 +47,17 @@ const Footer = (props) => {
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
-        gap: "2.5rem",
-        padding: "5rem 0 3rem",
+        gap: "2vw",
+        paddingTop: "2vw",
         backgroundColor: primaryColor,
-        width: "100vw"
+        width: "100vw",
       }}
     >
       <div
         style={{
           display: "flex",
           justifyContent: "center",
-          gap: "2.5rem",
+          gap: "5vw",
         }}
       >
         {email && (
@@ -113,7 +113,7 @@ const Footer = (props) => {
           </a>
         )}
       </div>
-      <p className="small" style={{ marginTop: 0, color: "white" }}>
+      <p className="small" style={{ marginTop: "0", marginBottom: "2vw", color: "white" }}>
         Created by {name}
       </p>
     </div>
@@ -135,7 +135,6 @@ Footer.propTypes = {
   primaryColor: PropTypes.string,
   twitter: PropTypes.string,
   youTube: PropTypes.string,
-
 };
 
 export default Footer;

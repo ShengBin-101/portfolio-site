@@ -23,7 +23,6 @@ import mbot_image from "../images/mbot.gif";
 import its_image from "../images/ITS.gif";
 import rnd_image from "../images/rnd_robot.gif";
 import lego_image from "../images/lego_opencv.gif";
-const imageAltText = "robot traversing maze";
 
 /**
  * Project list
@@ -41,7 +40,7 @@ const projectList = [
     image: mbot_image,
   },
   {
-    title: "Intelligent Transport System (ITS) 🚦",
+    title: "Intelligent Transport System 🚦",
     description:
       "Streamlines on-campus Autonomous Vehicle(MooVita) trials with dynamic roadblocks. Cameras monitor traffic for real-time traffic analysis and Microcontrollers enable traffic prioritization at junctions.",
     url: "https://github.com/tanxuanyun/Tiny_YOLO_Vehicle_Detection_and_Counting",
@@ -57,8 +56,7 @@ const projectList = [
   },
   {
     title: "Lego Brick Detection 📷",
-    description:
-      "A lego detection and sorting program.",
+    description: "A lego detection and counting program.",
     url: "https://github.com/ShengBin-101/lego-brick-detection",
     tag: ["Python", "OpenCV", "HTML/CSS/JavaScript"],
     image: lego_image,

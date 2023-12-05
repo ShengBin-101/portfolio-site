@@ -45,7 +45,7 @@ const detailOrQuote =
 
 const About = () => {
   return (
-    <section className="padding" id="about">
+    <section className="padding responsive-section" id="about">
       <div className="about-content">
         <h2>About Myself</h2>
         <p className="large">{description}</p>
