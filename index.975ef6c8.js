@@ -27079,6 +27079,8 @@ var _portfolio = require("./Components/Portfolio");
 var _portfolioDefault = parcelHelpers.interopDefault(_portfolio);
 var _education = require("./Components/Education");
 var _educationDefault = parcelHelpers.interopDefault(_education);
+var _contact = require("./Components/Contact");
+var _contactDefault = parcelHelpers.interopDefault(_contact);
 var _stylesCss = require("./styles.css");
 /**
  * This object represents your information. The project is set so that you
@@ -27107,7 +27109,7 @@ const App = ()=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 45,
+                lineNumber: 46,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _homeDefault.default), {
@@ -27115,22 +27117,27 @@ const App = ()=>{
                 title: siteProps.title
             }, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 46,
+                lineNumber: 47,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutDefault.default), {}, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 47,
+                lineNumber: 48,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _educationDefault.default), {}, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 48,
+                lineNumber: 49,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _portfolioDefault.default), {}, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 49,
+                lineNumber: 50,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _contactDefault.default), {}, void 0, false, {
+                fileName: "src/App.jsx",
+                lineNumber: 51,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerDefault.default), {
@@ -27139,13 +27146,13 @@ const App = ()=>{
                 secondaryColor: secondaryColor
             }, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 50,
+                lineNumber: 52,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/App.jsx",
-        lineNumber: 44,
+        lineNumber: 45,
         columnNumber: 5
     }, undefined);
 };
@@ -27159,7 +27166,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Components/About":"kouZu","./Components/Footer":"7GWgX","./Components/Header":"9Dt2F","./Components/Home":"jIEVO","./Components/Portfolio":"lCaEt","./styles.css":"lW6qc","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./Components/Education":"6QZcy"}],"kouZu":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Components/About":"kouZu","./Components/Footer":"7GWgX","./Components/Header":"9Dt2F","./Components/Home":"jIEVO","./Components/Portfolio":"lCaEt","./Components/Education":"6QZcy","./styles.css":"lW6qc","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./Components/Contact":"3ECXD"}],"kouZu":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$17a8 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -27176,8 +27183,17 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
  */ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 /**
+ * About background image
+ *
+ * Below is a sample image. Upload the image of your choice into the "images"
+ * directory and import here for use. Then, set imageAltText to string that
+ * represents what you see in that image.
+ *
+ * Need an image? Check out https://unsplash.com to download a image you
+ * freely use on your site.
+ */ /**
  * Sort description that expands on your title on the Home component.
- */ const description = "Hey qwe! I'm a Computer Engineering Freshman currently studying at National University of Singapore (NUS). ";
+ */ const description = "Hey there! I'm a Computer Engineering Freshman currently studying at National University of Singapore (NUS). ";
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
@@ -27208,172 +27224,183 @@ const About = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         className: "padding responsive-section",
         id: "about",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "about-content",
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                    children: "About Myself"
-                }, void 0, false, {
-                    fileName: "src/Components/About.jsx",
-                    lineNumber: 39,
-                    columnNumber: 9
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                    className: "large",
-                    children: description
-                }, void 0, false, {
-                    fileName: "src/Components/About.jsx",
-                    lineNumber: 40,
-                    columnNumber: 9
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                    className: "large",
-                    children: detailOrQuote
-                }, void 0, false, {
-                    fileName: "src/Components/About.jsx",
-                    lineNumber: 41,
-                    columnNumber: 9
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                    fileName: "src/Components/About.jsx",
-                    lineNumber: 42,
-                    columnNumber: 9
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                    children: "Skills"
-                }, void 0, false, {
-                    fileName: "src/Components/About.jsx",
-                    lineNumber: 43,
-                    columnNumber: 9
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "skills-wrapper",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "skills-container",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                    className: "skill-label",
-                                    children: "Programming Languages"
-                                }, void 0, false, {
-                                    fileName: "src/Components/About.jsx",
-                                    lineNumber: 46,
-                                    columnNumber: 13
-                                }, undefined),
-                                languagesList.map((skill, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "skill-item",
-                                        children: skill
-                                    }, index, false, {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "about-content",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                        children: "About Myself"
+                    }, void 0, false, {
+                        fileName: "src/Components/About.jsx",
+                        lineNumber: 50,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "large",
+                        children: description
+                    }, void 0, false, {
+                        fileName: "src/Components/About.jsx",
+                        lineNumber: 51,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "large",
+                        children: detailOrQuote
+                    }, void 0, false, {
+                        fileName: "src/Components/About.jsx",
+                        lineNumber: 52,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "src/Components/About.jsx",
+                        lineNumber: 53,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/Components/About.jsx",
+                lineNumber: 49,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "skill-content",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                        children: "Skills"
+                    }, void 0, false, {
+                        fileName: "src/Components/About.jsx",
+                        lineNumber: 57,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "skills-wrapper",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "skills-container",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        className: "skill-label",
+                                        children: "Programming Languages"
+                                    }, void 0, false, {
                                         fileName: "src/Components/About.jsx",
-                                        lineNumber: 48,
-                                        columnNumber: 15
-                                    }, undefined))
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/Components/About.jsx",
-                            lineNumber: 45,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "skills-container",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                    className: "skill-label",
-                                    children: "Web Development"
-                                }, void 0, false, {
-                                    fileName: "src/Components/About.jsx",
-                                    lineNumber: 54,
-                                    columnNumber: 13
-                                }, undefined),
-                                webList.map((skill, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "skill-item",
-                                        children: skill
-                                    }, index, false, {
+                                        lineNumber: 60,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    languagesList.map((skill, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "skill-item",
+                                            children: skill
+                                        }, index, false, {
+                                            fileName: "src/Components/About.jsx",
+                                            lineNumber: 62,
+                                            columnNumber: 15
+                                        }, undefined))
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/Components/About.jsx",
+                                lineNumber: 59,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "skills-container",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        className: "skill-label",
+                                        children: "Web Development"
+                                    }, void 0, false, {
                                         fileName: "src/Components/About.jsx",
-                                        lineNumber: 56,
-                                        columnNumber: 15
-                                    }, undefined))
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/Components/About.jsx",
-                            lineNumber: 53,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "skills-container",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                    className: "skill-label",
-                                    children: "Hardware"
-                                }, void 0, false, {
-                                    fileName: "src/Components/About.jsx",
-                                    lineNumber: 62,
-                                    columnNumber: 13
-                                }, undefined),
-                                hardwareList.map((skill, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "skill-item",
-                                        children: skill
-                                    }, index, false, {
+                                        lineNumber: 68,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    webList.map((skill, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "skill-item",
+                                            children: skill
+                                        }, index, false, {
+                                            fileName: "src/Components/About.jsx",
+                                            lineNumber: 70,
+                                            columnNumber: 15
+                                        }, undefined))
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/Components/About.jsx",
+                                lineNumber: 67,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "skills-container",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        className: "skill-label",
+                                        children: "Hardware"
+                                    }, void 0, false, {
                                         fileName: "src/Components/About.jsx",
-                                        lineNumber: 64,
-                                        columnNumber: 15
-                                    }, undefined))
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/Components/About.jsx",
-                            lineNumber: 61,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "skills-container",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                    className: "skill-label",
-                                    children: "Others"
-                                }, void 0, false, {
-                                    fileName: "src/Components/About.jsx",
-                                    lineNumber: 70,
-                                    columnNumber: 13
-                                }, undefined),
-                                otherList.map((skill, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "skill-item",
-                                        children: skill
-                                    }, index, false, {
+                                        lineNumber: 76,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    hardwareList.map((skill, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "skill-item",
+                                            children: skill
+                                        }, index, false, {
+                                            fileName: "src/Components/About.jsx",
+                                            lineNumber: 78,
+                                            columnNumber: 15
+                                        }, undefined))
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/Components/About.jsx",
+                                lineNumber: 75,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "skills-container",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        className: "skill-label",
+                                        children: "Others"
+                                    }, void 0, false, {
                                         fileName: "src/Components/About.jsx",
-                                        lineNumber: 72,
-                                        columnNumber: 15
-                                    }, undefined))
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/Components/About.jsx",
-                            lineNumber: 69,
-                            columnNumber: 11
-                        }, undefined)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/Components/About.jsx",
-                    lineNumber: 44,
-                    columnNumber: 9
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                    fileName: "src/Components/About.jsx",
-                    lineNumber: 78,
-                    columnNumber: 9
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                    fileName: "src/Components/About.jsx",
-                    lineNumber: 79,
-                    columnNumber: 9
-                }, undefined)
-            ]
-        }, void 0, true, {
-            fileName: "src/Components/About.jsx",
-            lineNumber: 38,
-            columnNumber: 7
-        }, undefined)
-    }, void 0, false, {
+                                        lineNumber: 84,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    otherList.map((skill, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "skill-item",
+                                            children: skill
+                                        }, index, false, {
+                                            fileName: "src/Components/About.jsx",
+                                            lineNumber: 86,
+                                            columnNumber: 15
+                                        }, undefined))
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/Components/About.jsx",
+                                lineNumber: 83,
+                                columnNumber: 11
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/Components/About.jsx",
+                        lineNumber: 58,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "src/Components/About.jsx",
+                        lineNumber: 92,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "src/Components/About.jsx",
+                        lineNumber: 93,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/Components/About.jsx",
+                lineNumber: 56,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true, {
         fileName: "src/Components/About.jsx",
-        lineNumber: 37,
+        lineNumber: 48,
         columnNumber: 5
     }, undefined);
 };
@@ -28648,7 +28675,7 @@ const Header = ()=>{
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                href: "#footer",
+                href: "#contact",
                 children: "Contact"
             }, void 0, false, {
                 fileName: "src/Components/Header.jsx",
@@ -29005,7 +29032,7 @@ $RefreshReg$(_c, "Portfolio");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/mbot.gif":"fIUeX","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/ITS.gif":"eZ4lQ","../images/rnd_robot.gif":"ksld7","../images/lego_opencv.gif":"4JMYU"}],"fIUeX":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/mbot.gif":"fIUeX","../images/ITS.gif":"eZ4lQ","../images/rnd_robot.gif":"ksld7","../images/lego_opencv.gif":"4JMYU","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"fIUeX":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "mbot.f124a1e3.gif" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"eZ4lQ":[function(require,module,exports) {
@@ -29017,7 +29044,7 @@ module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "rnd_ro
 },{"./helpers/bundle-url":"lgJ39"}],"4JMYU":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "lego_opencv.266d497a.gif" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}],"lW6qc":[function() {},{}],"6QZcy":[function(require,module,exports) {
+},{"./helpers/bundle-url":"lgJ39"}],"6QZcy":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$8bef = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -29354,6 +29381,166 @@ $RefreshReg$(_c, "Education");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["1xC6H","ShInH","8lqZg"], "8lqZg", "parcelRequire9978")
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"lW6qc":[function() {},{}],"3ECXD":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$26ef = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$26ef.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _s = $RefreshSig$();
+const Contact = ()=>{
+    _s();
+    const [showForm, setShowForm] = (0, _react.useState)(false);
+    const toggleFormVisibility = ()=>{
+        setShowForm(!showForm);
+    };
+    const handleDownloadResume = ()=>{
+        window.open("https://drive.google.com/file/d/1aVAWHgs6ZbV_-k0vWi1vlk7l1w63ng6A/view?usp=sharing", "_blank");
+    };
+    const handleSubmitForm = (event)=>{
+        event.preventDefault();
+    };
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
+        className: "contact",
+        id: "contact",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                className: "contact",
+                children: "Contact Me"
+            }, void 0, false, {
+                fileName: "src/Components/Contact.jsx",
+                lineNumber: 23,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "contact",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        onClick: handleDownloadResume,
+                        children: "Download Resume"
+                    }, void 0, false, {
+                        fileName: "src/Components/Contact.jsx",
+                        lineNumber: 25,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        onClick: toggleFormVisibility,
+                        children: showForm ? "Hide Form" : "Show Form"
+                    }, void 0, false, {
+                        fileName: "src/Components/Contact.jsx",
+                        lineNumber: 26,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/Components/Contact.jsx",
+                lineNumber: 24,
+                columnNumber: 7
+            }, undefined),
+            showForm && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
+                className: "contact-form",
+                onSubmit: handleSubmitForm,
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                        htmlFor: "name",
+                        children: "Name:"
+                    }, void 0, false, {
+                        fileName: "src/Components/Contact.jsx",
+                        lineNumber: 30,
+                        columnNumber: 11
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                        type: "text",
+                        id: "name",
+                        name: "name",
+                        required: true
+                    }, void 0, false, {
+                        fileName: "src/Components/Contact.jsx",
+                        lineNumber: 31,
+                        columnNumber: 11
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                        htmlFor: "email",
+                        children: "Email:"
+                    }, void 0, false, {
+                        fileName: "src/Components/Contact.jsx",
+                        lineNumber: 33,
+                        columnNumber: 11
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                        type: "email",
+                        id: "email",
+                        name: "email",
+                        required: true
+                    }, void 0, false, {
+                        fileName: "src/Components/Contact.jsx",
+                        lineNumber: 34,
+                        columnNumber: 11
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                        htmlFor: "message",
+                        children: "Message:"
+                    }, void 0, false, {
+                        fileName: "src/Components/Contact.jsx",
+                        lineNumber: 36,
+                        columnNumber: 11
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("textarea", {
+                        id: "message",
+                        name: "message",
+                        required: true
+                    }, void 0, false, {
+                        fileName: "src/Components/Contact.jsx",
+                        lineNumber: 37,
+                        columnNumber: 11
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        type: "submit",
+                        children: [
+                            "Submit ",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h6", {
+                                children: "(does not work yet, use the mail icon in footer for now!)"
+                            }, void 0, false, {
+                                fileName: "src/Components/Contact.jsx",
+                                lineNumber: 39,
+                                columnNumber: 40
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/Components/Contact.jsx",
+                        lineNumber: 39,
+                        columnNumber: 11
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/Components/Contact.jsx",
+                lineNumber: 29,
+                columnNumber: 9
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/Components/Contact.jsx",
+        lineNumber: 22,
+        columnNumber: 5
+    }, undefined);
+};
+_s(Contact, "kaMG6XwWu8g4QBLwMinxod9pp4Q=");
+_c = Contact;
+exports.default = Contact;
+var _c;
+$RefreshReg$(_c, "Contact");
+
+  $parcel$ReactRefreshHelpers$26ef.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react":"21dqq"}]},["1xC6H","ShInH","8lqZg"], "8lqZg", "parcelRequire9978")
 
 //# sourceMappingURL=index.975ef6c8.js.map
