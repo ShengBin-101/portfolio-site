@@ -27177,7 +27177,7 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 /**
  * Sort description that expands on your title on the Home component.
- */ const description = "Hey there! I'm a Computer Engineering Freshman currently studying at National University of Singapore (NUS). ";
+ */ const description = "Hey qwe! I'm a Computer Engineering Freshman currently studying at National University of Singapore (NUS). ";
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
