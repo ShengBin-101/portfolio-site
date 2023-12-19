@@ -225,16 +225,35 @@ img.socialIcon {
 
 /* About Section */
 
-section#about {
-  display: block;
-  background-color: #7fb2f1;
-  font-size: 1.5vw;
+@keyframes slideInAbout {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
 }
 
 .about-content {
-  margin: 1vw;
+  display: block;
+  font-size: 1.5vw;
+  background-color: #7fb2f1;
   text-align: center;
   padding-inline: 10vw;
+  opacity: 0; /* Set initial opacity to 0 */
+  animation: slideInAbout 1s ease-in-out forwards; /* Apply slideIn animation */
+}
+
+.skill-content {
+  display: block;
+  font-size: 1.5vw;
+  background-color: #7f94f1;
+  text-align: center;
+  padding-inline: 10vw;
+  opacity: 0; /* Set initial opacity to 0 */
+  animation: slideInAbout 1.5s ease-in-out forwards; /* Apply slideIn animation */
 }
 
 .skills-wrapper {
@@ -288,7 +307,7 @@ h2.education {
 }
 
 section#education {
-  background-color: #f9f9f9;
+  background-color: #eedfbe;
   font-size: (1rem + 0.5vw);
 }
 
@@ -358,7 +377,7 @@ section#education {
 
 /* Section for Projects */
 section#projects {
-  background-color: rgb(238, 241, 255);
+  background-color: rgb(233, 222, 252);
   text-align: center;
   font-size: (1rem + 0.5vw);
 }
@@ -396,6 +415,135 @@ section#projects {
 .project-description {
   width: 40vw; /* Define a fixed width for the description column */
   border-radius: 10px;
-  border: 1px solid rgb(204, 204, 204);
+  border: 1px solid rgb(115, 84, 185);
   padding: 2.5vw 16px;
+}
+
+/* Contact */
+
+@keyframes fade-in {
+  0% {
+    opacity: 0; /* Start with opacity 0 */
+    transform: translateY(-20px); /* Start with a 20px downward translation */
+  }
+  100% {
+    opacity: 1; /* End with opacity 1 */
+    transform: translateY(0); /* End with no translation */
+  }
+}
+
+section.contact {
+  background-color: #fff4e4;
+  font-size: (1rem + 0.5vw);
+}
+
+section#contact {
+  opacity: 0; /* Set initial opacity to 0 */
+  animation: fade-in 1s ease-in-out forwards; /* Apply fade-in animation */
+}
+
+h2.contact {
+  text-align: center;
+}
+
+div.contact {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1vw;
+  justify-items: center;
+  align-items: center;
+  margin-bottom: 5vw;
+}
+
+#contact button {
+  background-color: #c77130;
+  color: white;
+  border: none;
+  border-radius: 2rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#contact button:hover {
+  background-color: #eb8348;
+  color: #504434;
+}
+
+form.contact-form {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #faca63;
+  background-color: rgb(235, 155, 50);
+  border-radius: 2rem;
+  padding: 1rem;
+  margin: 0 auto; /* Center the form horizontally */
+  max-width: 400px; /* Limit the width of the form */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+form.contact-form input[type="text"],
+form.contact-form textarea {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+}
+form.contact-form input[type="email"],
+form.contact-form textarea {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  background-color: rgb(255, 248, 245);
+}
+
+form.contact-form input[type="submit"] {
+  background-color: #c77130;
+  color: white;
+  border: none;
+  border-radius: 2rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form.contact-form textarea {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  background-color: rgb(255, 248, 245);
+  resize: vertical; /* Restrict resize to vertical */
+}
+
+@keyframes slide-fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+form.contact-form {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #faca63;
+  background-color: rgb(235, 155, 50);
+  border-radius: 2rem;
+  padding: 1rem;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  max-width: 400px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  opacity: 0; /* Set initial opacity to 0 */
+  animation: slide-fade-in 1s ease-in-out forwards; /* Apply slide-fade-in animation */
+  
 }

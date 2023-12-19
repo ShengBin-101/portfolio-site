@@ -51,6 +51,9 @@ const About = () => {
         <p className="large">{description}</p>
         <p className="large">{detailOrQuote}</p>
         <br />
+
+      </div>
+      <div className="skill-content">
         <h2>Skills</h2>
         <div className="skills-wrapper">
           <div className="skills-container">

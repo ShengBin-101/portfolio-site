@@ -11,6 +11,7 @@ import Header from "./Components/Header";
 import Home from "./Components/Home";
 import Portfolio from "./Components/Portfolio";
 import Education from "./Components/Education";
+import Contact from "./Components/Contact";
 
 
 import "./styles.css";
@@ -47,6 +48,7 @@ const App = () => {
       <About />
       <Education />
       <Portfolio />
+      <Contact />
       <Footer {...siteProps} primaryColor={primaryColor} secondaryColor={secondaryColor} />
     </div>
   );
