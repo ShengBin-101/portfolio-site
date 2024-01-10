@@ -27166,7 +27166,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Components/About":"kouZu","./Components/Footer":"7GWgX","./Components/Header":"9Dt2F","./Components/Home":"jIEVO","./Components/Portfolio":"lCaEt","./Components/Education":"6QZcy","./styles.css":"lW6qc","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./Components/Contact":"3ECXD"}],"kouZu":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Components/About":"kouZu","./Components/Footer":"7GWgX","./Components/Header":"9Dt2F","./Components/Home":"jIEVO","./Components/Portfolio":"lCaEt","./Components/Education":"6QZcy","./Components/Contact":"3ECXD","./styles.css":"lW6qc","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"kouZu":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$17a8 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -27183,37 +27183,34 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
  */ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 /**
- * About background image
- *
- * Below is a sample image. Upload the image of your choice into the "images"
- * directory and import here for use. Then, set imageAltText to string that
- * represents what you see in that image.
- *
- * Need an image? Check out https://unsplash.com to download a image you
- * freely use on your site.
- */ /**
  * Sort description that expands on your title on the Home component.
  */ const description = "Hey there! I'm a Computer Engineering Freshman currently studying at National University of Singapore (NUS). ";
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */ const languagesList = [
-    "Robot Operating System (ROS)",
     "C/C++",
     "Python",
-    "Computer Vision"
+    "HTML/CSS/JavaScript",
+    "Dart"
 ];
 const hardwareList = [
     "Robot Operating System (ROS)",
     "Arduino"
 ];
-const webList = [
-    "HTML/CSS/JavaScript",
-    "React"
+const frameworkList = [
+    "React",
+    "Express",
+    "Flutter",
+    "Firebase"
 ];
-const otherList = [
-    "Git, GitHub",
-    "Docker"
+const databaseList = [
+    "Firestore"
+];
+const toolList = [
+    "Git/GitHub",
+    "Docker",
+    "Kubernetes"
 ];
 /**
  * Use this to give more information about what you are passionate about,
@@ -27222,7 +27219,7 @@ const otherList = [
  */ const detailOrQuote = "I am passionate in Robotics and Computer Vision. I am also interested in creating tech solutions to better improve the quality of lives for others.";
 const About = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
-        className: "padding responsive-section",
+        className: "padding",
         id: "about",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27232,7 +27229,7 @@ const About = ()=>{
                         children: "About Myself"
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 50,
+                        lineNumber: 41,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27240,7 +27237,7 @@ const About = ()=>{
                         children: description
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 51,
+                        lineNumber: 42,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27248,18 +27245,13 @@ const About = ()=>{
                         children: detailOrQuote
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 52,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                        fileName: "src/Components/About.jsx",
-                        lineNumber: 53,
+                        lineNumber: 43,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/About.jsx",
-                lineNumber: 49,
+                lineNumber: 40,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27269,7 +27261,7 @@ const About = ()=>{
                         children: "Skills"
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 57,
+                        lineNumber: 46,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27280,10 +27272,10 @@ const About = ()=>{
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                         className: "skill-label",
-                                        children: "Programming Languages"
+                                        children: "Languages"
                                     }, void 0, false, {
                                         fileName: "src/Components/About.jsx",
-                                        lineNumber: 60,
+                                        lineNumber: 49,
                                         columnNumber: 13
                                     }, undefined),
                                     languagesList.map((skill, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27291,38 +27283,13 @@ const About = ()=>{
                                             children: skill
                                         }, index, false, {
                                             fileName: "src/Components/About.jsx",
-                                            lineNumber: 62,
+                                            lineNumber: 51,
                                             columnNumber: 15
                                         }, undefined))
                                 ]
                             }, void 0, true, {
                                 fileName: "src/Components/About.jsx",
-                                lineNumber: 59,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "skills-container",
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                        className: "skill-label",
-                                        children: "Web Development"
-                                    }, void 0, false, {
-                                        fileName: "src/Components/About.jsx",
-                                        lineNumber: 68,
-                                        columnNumber: 13
-                                    }, undefined),
-                                    webList.map((skill, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                            className: "skill-item",
-                                            children: skill
-                                        }, index, false, {
-                                            fileName: "src/Components/About.jsx",
-                                            lineNumber: 70,
-                                            columnNumber: 15
-                                        }, undefined))
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/Components/About.jsx",
-                                lineNumber: 67,
+                                lineNumber: 48,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27333,7 +27300,7 @@ const About = ()=>{
                                         children: "Hardware"
                                     }, void 0, false, {
                                         fileName: "src/Components/About.jsx",
-                                        lineNumber: 76,
+                                        lineNumber: 57,
                                         columnNumber: 13
                                     }, undefined),
                                     hardwareList.map((skill, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27341,13 +27308,13 @@ const About = ()=>{
                                             children: skill
                                         }, index, false, {
                                             fileName: "src/Components/About.jsx",
-                                            lineNumber: 78,
+                                            lineNumber: 59,
                                             columnNumber: 15
                                         }, undefined))
                                 ]
                             }, void 0, true, {
                                 fileName: "src/Components/About.jsx",
-                                lineNumber: 75,
+                                lineNumber: 56,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27355,52 +27322,102 @@ const About = ()=>{
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                         className: "skill-label",
-                                        children: "Others"
+                                        children: "Frameworks"
                                     }, void 0, false, {
                                         fileName: "src/Components/About.jsx",
-                                        lineNumber: 84,
+                                        lineNumber: 65,
                                         columnNumber: 13
                                     }, undefined),
-                                    otherList.map((skill, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    frameworkList.map((skill, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                             className: "skill-item",
                                             children: skill
                                         }, index, false, {
                                             fileName: "src/Components/About.jsx",
-                                            lineNumber: 86,
+                                            lineNumber: 67,
                                             columnNumber: 15
                                         }, undefined))
                                 ]
                             }, void 0, true, {
                                 fileName: "src/Components/About.jsx",
-                                lineNumber: 83,
+                                lineNumber: 64,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "skills-container",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        className: "skill-label",
+                                        children: "Database"
+                                    }, void 0, false, {
+                                        fileName: "src/Components/About.jsx",
+                                        lineNumber: 73,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    databaseList.map((skill, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "skill-item",
+                                            children: skill
+                                        }, index, false, {
+                                            fileName: "src/Components/About.jsx",
+                                            lineNumber: 75,
+                                            columnNumber: 15
+                                        }, undefined))
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/Components/About.jsx",
+                                lineNumber: 72,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "skills-container",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        className: "skill-label",
+                                        children: "Tools"
+                                    }, void 0, false, {
+                                        fileName: "src/Components/About.jsx",
+                                        lineNumber: 81,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    toolList.map((skill, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "skill-item",
+                                            children: skill
+                                        }, index, false, {
+                                            fileName: "src/Components/About.jsx",
+                                            lineNumber: 83,
+                                            columnNumber: 15
+                                        }, undefined))
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/Components/About.jsx",
+                                lineNumber: 80,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 58,
+                        lineNumber: 47,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 92,
+                        lineNumber: 89,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 93,
+                        lineNumber: 90,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/About.jsx",
-                lineNumber: 56,
+                lineNumber: 45,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/About.jsx",
-        lineNumber: 48,
+        lineNumber: 39,
         columnNumber: 5
     }, undefined);
 };
@@ -29054,7 +29071,7 @@ try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
+/* eslint-disable react/no-unescaped-entities */ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _s = $RefreshSig$();
 const Education = ()=>{
@@ -29070,7 +29087,7 @@ const Education = ()=>{
                 children: "Education"
             }, void 0, false, {
                 fileName: "src/Components/Education.jsx",
-                lineNumber: 9,
+                lineNumber: 10,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29082,7 +29099,7 @@ const Education = ()=>{
                         children: isOpen ? "▼ National University of Singapore [2023 - 2026]" : "▲ National University of Singapore [2023 - 2026]"
                     }, void 0, false, {
                         fileName: "src/Components/Education.jsx",
-                        lineNumber: 11,
+                        lineNumber: 12,
                         columnNumber: 9
                     }, undefined),
                     isOpen ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29092,7 +29109,7 @@ const Education = ()=>{
                                 children: "Achievements"
                             }, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 18,
+                                lineNumber: 19,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -29100,19 +29117,19 @@ const Education = ()=>{
                                     children: "NUS Merit Scholarship Recipient"
                                 }, void 0, false, {
                                     fileName: "src/Components/Education.jsx",
-                                    lineNumber: 20,
+                                    lineNumber: 21,
                                     columnNumber: 15
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 19,
+                                lineNumber: 20,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
                                 children: "Co-Curricular"
                             }, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 22,
+                                lineNumber: 23,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -29120,25 +29137,25 @@ const Education = ()=>{
                                     children: "Hornet 9.0 Programme - Perception/Localisation Lead"
                                 }, void 0, false, {
                                     fileName: "src/Components/Education.jsx",
-                                    lineNumber: 24,
+                                    lineNumber: 25,
                                     columnNumber: 15
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 23,
+                                lineNumber: 24,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                 children: "\uD83D\uDCC6 Graduating May 2026"
                             }, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 26,
+                                lineNumber: 27,
                                 columnNumber: 13
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/Components/Education.jsx",
-                        lineNumber: 17,
+                        lineNumber: 18,
                         columnNumber: 11
                     }, undefined) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "dropdown-content closed",
@@ -29147,7 +29164,7 @@ const Education = ()=>{
                                 children: "Achievements"
                             }, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 30,
+                                lineNumber: 31,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -29155,19 +29172,19 @@ const Education = ()=>{
                                     children: "NUS Merit Scholarship Recipient"
                                 }, void 0, false, {
                                     fileName: "src/Components/Education.jsx",
-                                    lineNumber: 32,
+                                    lineNumber: 33,
                                     columnNumber: 15
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 31,
+                                lineNumber: 32,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
                                 children: "Co-Curricular"
                             }, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 34,
+                                lineNumber: 35,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -29175,31 +29192,31 @@ const Education = ()=>{
                                     children: "Hornet 9.0 Programme - Perception/Localisation Lead"
                                 }, void 0, false, {
                                     fileName: "src/Components/Education.jsx",
-                                    lineNumber: 36,
+                                    lineNumber: 37,
                                     columnNumber: 15
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 35,
+                                lineNumber: 36,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                 children: "\uD83D\uDCC6 Graduating May 2026"
                             }, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 38,
+                                lineNumber: 39,
                                 columnNumber: 13
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/Components/Education.jsx",
-                        lineNumber: 29,
+                        lineNumber: 30,
                         columnNumber: 11
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/Education.jsx",
-                lineNumber: 10,
+                lineNumber: 11,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29211,7 +29228,7 @@ const Education = ()=>{
                         children: isOpen2 ? "▼ Ngee Ann Polytechnic [2018 - 2021]" : "▲ Ngee Ann Polytechnic [2018 - 2021]"
                     }, void 0, false, {
                         fileName: "src/Components/Education.jsx",
-                        lineNumber: 44,
+                        lineNumber: 45,
                         columnNumber: 9
                     }, undefined),
                     isOpen2 ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29221,7 +29238,7 @@ const Education = ()=>{
                                 children: "Achievements"
                             }, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 51,
+                                lineNumber: 52,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -29230,41 +29247,41 @@ const Education = ()=>{
                                         children: "Diploma with Merit"
                                     }, void 0, false, {
                                         fileName: "src/Components/Education.jsx",
-                                        lineNumber: 53,
+                                        lineNumber: 54,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                         children: "Lien Ying Chow Scholarship Recipient"
                                     }, void 0, false, {
                                         fileName: "src/Components/Education.jsx",
-                                        lineNumber: 54,
+                                        lineNumber: 55,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                         children: "Placed on Dean's List (2019, 2020)"
                                     }, void 0, false, {
                                         fileName: "src/Components/Education.jsx",
-                                        lineNumber: 55,
+                                        lineNumber: 56,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                         children: "Faculty Merit Award"
                                     }, void 0, false, {
                                         fileName: "src/Components/Education.jsx",
-                                        lineNumber: 56,
+                                        lineNumber: 57,
                                         columnNumber: 15
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 52,
+                                lineNumber: 53,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
                                 children: "Co-Curricular"
                             }, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 58,
+                                lineNumber: 59,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -29272,18 +29289,18 @@ const Education = ()=>{
                                     children: "Archery Club - Team Captain"
                                 }, void 0, false, {
                                     fileName: "src/Components/Education.jsx",
-                                    lineNumber: 60,
+                                    lineNumber: 61,
                                     columnNumber: 15
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 59,
+                                lineNumber: 60,
                                 columnNumber: 13
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/Components/Education.jsx",
-                        lineNumber: 50,
+                        lineNumber: 51,
                         columnNumber: 11
                     }, undefined) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "dropdown-content closed",
@@ -29292,7 +29309,7 @@ const Education = ()=>{
                                 children: "Achievements"
                             }, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 65,
+                                lineNumber: 66,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -29301,41 +29318,41 @@ const Education = ()=>{
                                         children: "Diploma with Merit"
                                     }, void 0, false, {
                                         fileName: "src/Components/Education.jsx",
-                                        lineNumber: 67,
+                                        lineNumber: 68,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                         children: "Lien Ying Chow Scholarship Recipient"
                                     }, void 0, false, {
                                         fileName: "src/Components/Education.jsx",
-                                        lineNumber: 68,
+                                        lineNumber: 69,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                         children: "Placed on Dean's List (2019, 2020)"
                                     }, void 0, false, {
                                         fileName: "src/Components/Education.jsx",
-                                        lineNumber: 69,
+                                        lineNumber: 70,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                         children: "Faculty Merit Award"
                                     }, void 0, false, {
                                         fileName: "src/Components/Education.jsx",
-                                        lineNumber: 70,
+                                        lineNumber: 71,
                                         columnNumber: 15
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 66,
+                                lineNumber: 67,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
                                 children: "Co-Curricular"
                             }, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 72,
+                                lineNumber: 73,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -29343,30 +29360,30 @@ const Education = ()=>{
                                     children: "Archery Club - Team Captain"
                                 }, void 0, false, {
                                     fileName: "src/Components/Education.jsx",
-                                    lineNumber: 74,
+                                    lineNumber: 75,
                                     columnNumber: 15
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 73,
+                                lineNumber: 74,
                                 columnNumber: 13
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/Components/Education.jsx",
-                        lineNumber: 64,
+                        lineNumber: 65,
                         columnNumber: 11
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/Education.jsx",
-                lineNumber: 43,
+                lineNumber: 44,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/Education.jsx",
-        lineNumber: 8,
+        lineNumber: 9,
         columnNumber: 5
     }, undefined);
 };
@@ -29381,7 +29398,7 @@ $RefreshReg$(_c, "Education");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"lW6qc":[function() {},{}],"3ECXD":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"3ECXD":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$26ef = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -29541,6 +29558,6 @@ $RefreshReg$(_c, "Contact");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react":"21dqq"}]},["1xC6H","ShInH","8lqZg"], "8lqZg", "parcelRequire9978")
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"lW6qc":[function() {},{}]},["1xC6H","ShInH","8lqZg"], "8lqZg", "parcelRequire9978")
 
 //# sourceMappingURL=index.975ef6c8.js.map

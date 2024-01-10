@@ -1,10 +1,4 @@
 @import "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Montserrat:wght@200;400;600;800&display=swap";
-.responsive-section {
-  flex-flow: column wrap;
-  align-items: center;
-  display: flex;
-}
-
 @media (min-width: 600px) {
   .responsive-section .responsive-header .content {
     width: 50%;
@@ -228,22 +222,21 @@ img.socialIcon {
 
 .about-content {
   text-align: center;
+  padding: 2vw;
   opacity: 0;
   background-color: #7fb2f1;
-  padding-inline: 10vw;
+  padding-inline: 12vw;
   font-size: 1.5vw;
   animation: slideInAbout 1s ease-in-out forwards;
-  display: block;
 }
 
 .skill-content {
   text-align: center;
   opacity: 0;
   background-color: #7f94f1;
-  padding-inline: 10vw;
+  padding: 2vw;
   font-size: 1.5vw;
   animation: slideInAbout 1.5s ease-in-out forwards;
-  display: block;
 }
 
 .skills-wrapper {
