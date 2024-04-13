@@ -131,7 +131,7 @@ h2.title {
 
 h2 {
   font-family: var(--primary-font);
-  font-size: 3em;
+  font-size: 5vw;
 }
 
 h3 {
@@ -226,7 +226,6 @@ img.socialIcon {
   opacity: 0;
   background-color: #7fb2f1;
   padding-inline: 12vw;
-  font-size: 1.5vw;
   animation: slideInAbout 1s ease-in-out forwards;
 }
 
@@ -235,7 +234,6 @@ img.socialIcon {
   opacity: 0;
   background-color: #7f94f1;
   padding: 2vw;
-  font-size: 1.5vw;
   animation: slideInAbout 1.5s ease-in-out forwards;
 }
 
