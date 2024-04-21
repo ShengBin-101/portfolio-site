@@ -19,6 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
+import fpga_image from "../images/fpga.gif";
+import hornet_image from "../images/Hornet9.gif";
+import alex_image from "../images/alex.gif";
 import mbot_image from "../images/mbot.gif";
 import its_image from "../images/ITS.gif";
 import rnd_image from "../images/rnd_robot.gif";
@@ -31,6 +34,30 @@ import lego_image from "../images/lego_opencv.gif";
  * links section. Below is a sample, update to reflect links you'd like to highlight.
  */
 const projectList = [
+  {
+    title: "Hornet 9.0 🚢",
+    description:
+      "Autonomous Underwater Vehicle. Competed in SAUVC 2024.",
+    url: "https://github.com/ShengBin-101/camera_ws",
+    tag: ["ROS", "OpenCV", "YOLO"],
+    image: hornet_image,
+  },
+  {
+    title: "Alex - Search & Rescue Robot 🤖",
+    description:
+      "Tele-operated vehicle with search and rescue functions using Raspberry Pi, Arduino Uno, ROS, and Lidar.",
+    url: "https://github.com/ShengBin-101/alex_ws",
+    tag: ["ROS", "Raspberry Pi", "Arduino", "Bare Metal Programming"],
+    image: alex_image,
+  },
+  {
+    title: "FPGA Project 💻",
+    description:
+      "Programmed a multiplayer game involving inter-board serial communication for synchronisation of state machines.",
+    url: "https://github.com/ShengBin-101/alex_ws",
+    tag: ["FPGA", "VHDL"],
+    image: fpga_image,
+  },
   {
     title: "mBot - Maze Solving Robot 🤖",
     description:

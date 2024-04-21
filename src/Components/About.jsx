@@ -18,13 +18,13 @@ const description =
  */
 const languagesList = ["C/C++", "Python", "HTML/CSS/JavaScript", "Dart"];
 
-const hardwareList = ["Robot Operating System (ROS)", "Arduino"];
+const hardwareList = ["Robot Operating System (ROS)", "Arduino", "Verilog"];
 
 const frameworkList = ["React", "Express", "Flutter", "Firebase"];
 
 const databaseList = ["Firestore"];
 
-const toolList = ["Git/GitHub", "Docker", "Kubernetes"];
+const toolList = ["Git/GitHub", "Docker", "Kubernetes", "Jupyter Notebook"];
 
 /**
  * Use this to give more information about what you are passionate about,

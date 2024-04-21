@@ -7,16 +7,16 @@ const Contact = () => {
     setShowForm(!showForm);
   };
 
-    const handleDownloadResume = () => {
+  const handleDownloadResume = () => {
     window.open(
       "https://drive.google.com/file/d/1aVAWHgs6ZbV_-k0vWi1vlk7l1w63ng6A/view?usp=sharing",
       "_blank"
     );
-    };
+  };
 
-    const handleSubmitForm = (event) => {
+  const handleSubmitForm = (event) => {
     event.preventDefault();
-    };
+  };
 
   return (
     <section className="contact" id="contact">
@@ -36,7 +36,9 @@ const Contact = () => {
           <label htmlFor="message">Message:</label>
           <textarea id="message" name="message" required></textarea>
 
-          <button type="submit">Submit <h6>(does not work yet, use the mail icon in footer for now!)</h6></button>
+          <button type="submit">
+            Submit <h6>(does not work yet, use the mail icon in footer for now!)</h6>
+          </button>
         </form>
       )}
     </section>

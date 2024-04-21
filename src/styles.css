@@ -134,7 +134,7 @@ h2.title {
 
 h2 {
   font-family: var(--primary-font);
-  font-size: 3em;
+  font-size: 5vw;
 }
 
 h3 {
@@ -232,7 +232,6 @@ img.socialIcon {
 
 .about-content {
   padding: 2vw;
-  font-size: 1.5vw;
   background-color: #7fb2f1;
   text-align: center;
   padding-inline: 12vw;
@@ -242,7 +241,6 @@ img.socialIcon {
 
 .skill-content {
   padding: 2vw;
-  font-size: 1.5vw;
   background-color: #7f94f1;
   text-align: center;
   opacity: 0; /* Set initial opacity to 0 */
