@@ -131,13 +131,34 @@ h2.title {
 
 h2 {
   font-family: var(--primary-font);
-  font-size: 5vw;
+  font-size: 4vw;
 }
 
 h3 {
   margin: 0;
   font-size: 2vw;
   font-weight: 400;
+}
+
+a.glowing-link {
+  animation: glowing 3s ease-in-out infinite;
+}
+
+@keyframes glowing {
+  0% {
+    color: #000;
+    text-shadow: none;
+  }
+
+  50% {
+    color: #fe0;
+    text-shadow: 0 0 2px #4f5a59;
+  }
+
+  100% {
+    color: #000;
+    text-shadow: none;
+  }
 }
 
 p {
@@ -301,7 +322,7 @@ section#education {
   padding-bottom: 1.5rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
-  font-size: 1.25vw;
+  font-size: 2vw;
   display: block;
   overflow: hidden;
 }
