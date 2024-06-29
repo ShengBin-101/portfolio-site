@@ -38,7 +38,7 @@ const projectList = [
     title: "Hornet 9.0 🚢",
     description:
       "Autonomous Underwater Vehicle. Competed in SAUVC 2024.",
-    url: "https://github.com/ShengBin-101/camera_ws",
+    url: "https://github.com/Hornet9Software",
     tag: ["ROS", "OpenCV", "YOLO"],
     image: hornet_image,
   },

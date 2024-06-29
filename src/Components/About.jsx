@@ -10,7 +10,7 @@ import React from "react";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "Hey there! I'm a Computer Engineering Freshman currently studying at National University of Singapore (NUS). ";
+  "Hey there! I'm a Computer Engineering undergraduate student at National University of Singapore (NUS). ";
 
 /**
  * List of some of skills or technologies you work on, are learning,
@@ -31,8 +31,19 @@ const toolList = ["Git/GitHub", "Docker", "Kubernetes", "Jupyter Notebook"];
  * how you best work, or even a quote. This will help someone learn more
  * about you on a professional level.
  */
-const detailOrQuote =
-  "I am passionate in Robotics and Computer Vision. I am also interested in creating tech solutions to better improve the quality of lives for others.";
+
+const detailOrQuote = (
+  <span>
+    Passionate in Robot Autonomy and Computer Vision. 
+    <br />
+    Currently doing a Summer Internship at DSO National Laboratories.
+    <br />
+    <br />
+    I am also part of <a href="https://bumblebee.sg/" className="glowing-link">NUS Team Bumblebee</a> as a Software Engineer, working on the perception stack for our Autonomous Surface Vessel in preparation for <a href="https://robotx.org/programs/2024/" target="_blank" rel="noopener noreferrer" className="glowing-link">
+      RobotX 2024
+    </a>.
+  </span>
+);
 
 const About = () => {
   return (
