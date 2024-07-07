@@ -26,6 +26,7 @@ import mbot_image from "../images/mbot.gif";
 import its_image from "../images/ITS.gif";
 import rnd_image from "../images/rnd_robot.gif";
 import lego_image from "../images/lego_opencv.gif";
+import gitbook_image from "../images/Gitbook.png";
 
 /**
  * Project list
@@ -33,13 +34,22 @@ import lego_image from "../images/lego_opencv.gif";
  * An array of objects that will be used to display for your project
  * links section. Below is a sample, update to reflect links you'd like to highlight.
  */
-const projectList = [
+const ongoingProjectList = [
+  {
+    title: "Robot Resources 📚",
+    description: "A collection of notes and resources for Robotics. I try to keep it updated with my learning journey in Robotics",
+    url: "https://leftover-ice.gitbook.io/resources",
+    tag: ["Gitbook", "ROS", "Tutorials", "Robotics"],
+    image: gitbook_image,
+  },
+];
+
+const completedProjectList = [
   {
     title: "Hornet 9.0 🚢",
-    description:
-      "Autonomous Underwater Vehicle. Competed in SAUVC 2024.",
+    description: "Autonomous Underwater Vehicle. Competed in SAUVC 2024.",
     url: "https://github.com/Hornet9Software",
-    tag: ["ROS", "OpenCV", "YOLO"],
+    tag: ["ROS", "OpenCV", "YOLO", "Robotics"],
     image: hornet_image,
   },
   {
@@ -94,14 +104,14 @@ const Portfolio = () => {
   return (
     <section className="padding" id="projects">
       <h2>Projects</h2>
+      <h4>Ongoing</h4>
       <div className="container">
-        {projectList.map((project) => (
+        {ongoingProjectList.map((project) => (
           <div key={project.title}>
             <div className="project-content">
               <div className="project-image">
                 <img src={project.image} alt={project.title} />
               </div>
-
               <div className="project-description">
                 <a href={project.url} target="_blank" rel="noopener noreferrer">
                   <h3>{project.title}</h3>
@@ -119,6 +129,33 @@ const Portfolio = () => {
           </div>
         ))}
       </div>
+      <br />
+      <h4>Completed</h4>
+      <div className="container">
+        {completedProjectList.map((project) => (
+          <div key={project.title}>
+            <div className="project-content">
+              <div className="project-image">
+                <img src={project.image} alt={project.title} />
+              </div>
+              <div className="project-description">
+                <a href={project.url} target="_blank" rel="noopener noreferrer">
+                  <h3>{project.title}</h3>
+                </a>
+                <div>
+                  <p className="small">{project.description}</p>
+                  {project.tag.map((tag) => (
+                    <p className="tag" key={tag}>
+                      {tag}
+                    </p>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+
     </section>
   );
 };
