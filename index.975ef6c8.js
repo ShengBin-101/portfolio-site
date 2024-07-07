@@ -28942,84 +28942,122 @@ var _rndRobotGif = require("../images/rnd_robot.gif");
 var _rndRobotGifDefault = parcelHelpers.interopDefault(_rndRobotGif);
 var _legoOpencvGif = require("../images/lego_opencv.gif");
 var _legoOpencvGifDefault = parcelHelpers.interopDefault(_legoOpencvGif);
+var _gitbookPng = require("../images/Gitbook.png");
+var _gitbookPngDefault = parcelHelpers.interopDefault(_gitbookPng);
+var _bbasv4Png = require("../images/bbasv4.png");
+var _bbasv4PngDefault = parcelHelpers.interopDefault(_bbasv4Png);
 /**
  * Project list
  *
  * An array of objects that will be used to display for your project
  * links section. Below is a sample, update to reflect links you'd like to highlight.
- */ const projectList = [
+ */ const ongoingProjectList = [
+    {
+        title: "NUS Bumblebee (ASV) \uD83D\uDEA2",
+        description: "Part of the Software Team, working on Perception for the Autonomous Surface Vehicle (ASV) and preparing for RobotX 2024.",
+        url: "https://bumblebee.sg/",
+        tag: [
+            "Robotics",
+            "Perception",
+            "ROS"
+        ],
+        image: (0, _bbasv4PngDefault.default)
+    },
+    {
+        title: "Robot Resources \uD83D\uDCDA",
+        description: "A collection of notes and resources for Robotics. I try to keep it updated with my learning journey in Robotics",
+        url: "https://leftover-ice.gitbook.io/resources",
+        tag: [
+            "Gitbook",
+            "ROS",
+            "Tutorials",
+            "Robotics"
+        ],
+        image: (0, _gitbookPngDefault.default)
+    }, 
+];
+const completedProjectList = [
     {
         title: "Hornet 9.0 \uD83D\uDEA2",
-        description: "Autonomous Underwater Vehicle. Competed in SAUVC 2024.",
+        description: "NUS Bumblebee's Hornet Program, a 9-month training program to build a Autonomous Underwater Vehicle (AUV) from scratch. \n    Part of the Software Team, worked on Perception. \n    Competed in Singapore Autonomous Underwater Vehicle Challenge (SAUVC) 2024.",
         url: "https://github.com/Hornet9Software",
         tag: [
             "ROS",
             "OpenCV",
-            "YOLO"
+            "YOLO",
+            "Robotics"
         ],
-        image: (0, _hornet9GifDefault.default)
+        image: (0, _hornet9GifDefault.default),
+        completedDate: "April 2024"
     },
     {
         title: "Alex - Search & Rescue Robot \uD83E\uDD16",
-        description: "Tele-operated vehicle with search and rescue functions using Raspberry Pi, Arduino Uno, ROS, and Lidar.",
+        description: "Tele-operated vehicle with search and rescue functions using Raspberry Pi, Arduino Uno, ROS, and Lidar. \n      Done as a group project for CG2111A course which focuses on Bare Metal Programming and secure networking with TLS.",
         url: "https://github.com/ShengBin-101/alex_ws",
         tag: [
             "ROS",
             "Raspberry Pi",
-            "Arduino",
-            "Bare Metal Programming"
+            "Bare Metal Programming",
+            "TLS"
         ],
-        image: (0, _alexGifDefault.default)
+        image: (0, _alexGifDefault.default),
+        completedDate: "April 2024"
     },
     {
         title: "FPGA Project \uD83D\uDCBB",
-        description: "Programmed a multiplayer game involving inter-board serial communication for synchronisation of state machines.",
+        description: "Programmed a multiplayer game involving inter-board serial communication for synchronisation of state machines. \n      Done as a group project for a Digital System Design course (EE2026).",
         url: "https://github.com/ShengBin-101/alex_ws",
         tag: [
             "FPGA",
             "VHDL"
         ],
-        image: (0, _fpgaGifDefault.default)
+        image: (0, _fpgaGifDefault.default),
+        completedDate: "April 2024"
     },
     {
         title: "mBot - Maze Solving Robot \uD83E\uDD16",
-        description: "Autonomous robot that can solve a maze, detect and process data from the environment using Arduino Uno.",
+        description: "Done as a group project for CG1111A. \n      An autonomous robot that can solve a maze, detect and process data from the environment using Arduino Uno. \n      Utilizes PID control for line following and obstacle avoidance and K-NN algorithm for colour identification.",
         url: "https://github.com/ShengBin-101/CG1111A-Final-Project",
         tag: [
             "Arduino"
         ],
-        image: (0, _mbotGifDefault.default)
+        image: (0, _mbotGifDefault.default),
+        completedDate: "November 2023"
     },
     {
         title: "Intelligent Transport System \uD83D\uDEA6",
-        description: "Streamlines on-campus Autonomous Vehicle(MooVita) trials with dynamic roadblocks. Cameras monitor traffic for real-time traffic analysis and Microcontrollers enable traffic prioritization at junctions.",
+        description: "Done as a Final Year Project in Ngee Ann Poly (2 person team). \n      Streamlines on-campus Autonomous Vehicle(AV) trials with real-time traffic analysis and enable traffic prioritization for AVs at junctions.",
         url: "https://github.com/tanxuanyun/Tiny_YOLO_Vehicle_Detection_and_Counting",
         tag: [
             "Microcontroller (ESP32)",
-            "Deep Learning (Tiny-Yolo)"
+            "Deep Learning (Tiny-Yolo)",
+            "Bluetooth Low Energy (BLE)"
         ],
-        image: (0, _itsGifDefault.default)
-    },
-    {
-        title: "Autonomous Robot Car \uD83D\uDE97",
-        description: "Developed teaching materials to guide students with hardware/electronics assembly and ROS basics to future students.",
-        tag: [
-            "ROS",
-            "3D CAD",
-            "Raspberry Pi"
-        ],
-        image: (0, _rndRobotGifDefault.default)
+        image: (0, _itsGifDefault.default),
+        completedDate: "October 2020"
     },
     {
         title: "Lego Brick Detection \uD83D\uDCF7",
-        description: "A lego detection and counting program.",
+        description: "Done as an assignment for a computer vision (OpenCV) course in Python.\n    A lego detection and counting program using image processing techniques for identification.",
         url: "https://github.com/ShengBin-101/lego-brick-detection",
         tag: [
             "Python",
             "OpenCV",
             "HTML/CSS/JavaScript"
         ],
-        image: (0, _legoOpencvGifDefault.default)
+        image: (0, _legoOpencvGifDefault.default),
+        completedDate: "October 2020"
+    },
+    {
+        title: "Autonomous Robot Car \uD83D\uDE97",
+        description: "Developed teaching materials to guide students with hardware/electronics assembly and ROS basics to future students. \n      This was also my first time working with ROS.",
+        tag: [
+            "ROS",
+            "3D CAD",
+            "Raspberry Pi"
+        ],
+        image: (0, _rndRobotGifDefault.default),
+        completedDate: "April 2020"
     }, 
 ];
 const Portfolio = ()=>{
@@ -29031,12 +29069,19 @@ const Portfolio = ()=>{
                 children: "Projects"
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 96,
+                lineNumber: 133,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                children: "Ongoing"
+            }, void 0, false, {
+                fileName: "src/Components/Portfolio.jsx",
+                lineNumber: 134,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "container",
-                children: projectList.map((project)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                children: ongoingProjectList.map((project)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                             className: "project-content",
                             children: [
@@ -29047,16 +29092,16 @@ const Portfolio = ()=>{
                                         alt: project.title
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 102,
+                                        lineNumber: 140,
                                         columnNumber: 17
                                     }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/Components/Portfolio.jsx",
-                                    lineNumber: 101,
+                                    lineNumber: 139,
                                     columnNumber: 15
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "project-description",
+                                    className: "project-description style={{ textAlign: 'center' }",
                                     children: [
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                             href: project.url,
@@ -29066,64 +29111,188 @@ const Portfolio = ()=>{
                                                 children: project.title
                                             }, void 0, false, {
                                                 fileName: "src/Components/Portfolio.jsx",
-                                                lineNumber: 107,
+                                                lineNumber: 144,
                                                 columnNumber: 19
                                             }, undefined)
                                         }, void 0, false, {
                                             fileName: "src/Components/Portfolio.jsx",
-                                            lineNumber: 106,
+                                            lineNumber: 143,
                                             columnNumber: 17
                                         }, undefined),
+                                        project.description.split("\n").map((paragraph, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                className: "small",
+                                                style: {
+                                                    textAlign: "left",
+                                                    paddingInline: "20px"
+                                                },
+                                                children: paragraph
+                                            }, index, false, {
+                                                fileName: "src/Components/Portfolio.jsx",
+                                                lineNumber: 148,
+                                                columnNumber: 19
+                                            }, undefined)),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                            children: [
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                                    className: "small",
-                                                    children: project.description
-                                                }, void 0, false, {
+                                            className: "tags-container",
+                                            style: {
+                                                textAlign: "center"
+                                            },
+                                            children: project.tag.map((tag)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                    className: "tag",
+                                                    children: tag
+                                                }, tag, false, {
                                                     fileName: "src/Components/Portfolio.jsx",
-                                                    lineNumber: 110,
-                                                    columnNumber: 19
-                                                }, undefined),
-                                                project.tag.map((tag)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                                        className: "tag",
-                                                        children: tag
-                                                    }, tag, false, {
-                                                        fileName: "src/Components/Portfolio.jsx",
-                                                        lineNumber: 112,
-                                                        columnNumber: 21
-                                                    }, undefined))
-                                            ]
-                                        }, void 0, true, {
+                                                    lineNumber: 153,
+                                                    columnNumber: 21
+                                                }, undefined))
+                                        }, void 0, false, {
                                             fileName: "src/Components/Portfolio.jsx",
-                                            lineNumber: 109,
+                                            lineNumber: 151,
                                             columnNumber: 17
                                         }, undefined)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/Components/Portfolio.jsx",
-                                    lineNumber: 105,
+                                    lineNumber: 142,
                                     columnNumber: 15
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/Components/Portfolio.jsx",
-                            lineNumber: 100,
+                            lineNumber: 138,
                             columnNumber: 13
                         }, undefined)
                     }, project.title, false, {
                         fileName: "src/Components/Portfolio.jsx",
-                        lineNumber: 99,
+                        lineNumber: 137,
                         columnNumber: 11
                     }, undefined))
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 97,
+                lineNumber: 135,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                fileName: "src/Components/Portfolio.jsx",
+                lineNumber: 161,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                children: "Completed"
+            }, void 0, false, {
+                fileName: "src/Components/Portfolio.jsx",
+                lineNumber: 162,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "container",
+                children: completedProjectList.map((project)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "project-content",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "project-image",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                        src: project.image,
+                                        alt: project.title
+                                    }, void 0, false, {
+                                        fileName: "src/Components/Portfolio.jsx",
+                                        lineNumber: 168,
+                                        columnNumber: 17
+                                    }, undefined)
+                                }, void 0, false, {
+                                    fileName: "src/Components/Portfolio.jsx",
+                                    lineNumber: 167,
+                                    columnNumber: 15
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "project-description",
+                                    style: {
+                                        textAlign: "center"
+                                    },
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                            href: project.url,
+                                            target: "_blank",
+                                            rel: "noopener noreferrer",
+                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                                children: project.title
+                                            }, void 0, false, {
+                                                fileName: "src/Components/Portfolio.jsx",
+                                                lineNumber: 173,
+                                                columnNumber: 21
+                                            }, undefined)
+                                        }, void 0, false, {
+                                            fileName: "src/Components/Portfolio.jsx",
+                                            lineNumber: 172,
+                                            columnNumber: 17
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                            className: "small",
+                                            children: [
+                                                "Completed on ",
+                                                project.completedDate
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/Components/Portfolio.jsx",
+                                            lineNumber: 176,
+                                            columnNumber: 17
+                                        }, undefined),
+                                        project.description.split("\n").map((paragraph, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                className: "small",
+                                                style: {
+                                                    textAlign: "left",
+                                                    paddingInline: "20px"
+                                                },
+                                                children: paragraph
+                                            }, index, false, {
+                                                fileName: "src/Components/Portfolio.jsx",
+                                                lineNumber: 181,
+                                                columnNumber: 19
+                                            }, undefined)),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "tags-container",
+                                            style: {
+                                                textAlign: "center"
+                                            },
+                                            children: project.tag.map((tag)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                    className: "tag",
+                                                    children: tag
+                                                }, tag, false, {
+                                                    fileName: "src/Components/Portfolio.jsx",
+                                                    lineNumber: 186,
+                                                    columnNumber: 21
+                                                }, undefined))
+                                        }, void 0, false, {
+                                            fileName: "src/Components/Portfolio.jsx",
+                                            lineNumber: 184,
+                                            columnNumber: 17
+                                        }, undefined)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/Components/Portfolio.jsx",
+                                    lineNumber: 170,
+                                    columnNumber: 15
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/Components/Portfolio.jsx",
+                            lineNumber: 166,
+                            columnNumber: 13
+                        }, undefined)
+                    }, project.title, false, {
+                        fileName: "src/Components/Portfolio.jsx",
+                        lineNumber: 165,
+                        columnNumber: 11
+                    }, undefined))
+            }, void 0, false, {
+                fileName: "src/Components/Portfolio.jsx",
+                lineNumber: 163,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/Portfolio.jsx",
-        lineNumber: 95,
+        lineNumber: 132,
         columnNumber: 5
     }, undefined);
 };
@@ -29137,7 +29306,7 @@ $RefreshReg$(_c, "Portfolio");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/fpga.gif":"kXbVP","../images/Hornet9.gif":"eV8fU","../images/alex.gif":"du1IH","../images/mbot.gif":"fIUeX","../images/ITS.gif":"eZ4lQ","../images/rnd_robot.gif":"ksld7","../images/lego_opencv.gif":"4JMYU","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"kXbVP":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/fpga.gif":"kXbVP","../images/Hornet9.gif":"eV8fU","../images/alex.gif":"du1IH","../images/mbot.gif":"fIUeX","../images/ITS.gif":"eZ4lQ","../images/rnd_robot.gif":"ksld7","../images/lego_opencv.gif":"4JMYU","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/Gitbook.png":"jrIqb","../images/bbasv4.png":"7Ian8"}],"kXbVP":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "fpga.e2abe8f6.gif" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"eV8fU":[function(require,module,exports) {
@@ -29157,6 +29326,12 @@ module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "rnd_ro
 
 },{"./helpers/bundle-url":"lgJ39"}],"4JMYU":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "lego_opencv.266d497a.gif" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"jrIqb":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "Gitbook.010bdf0d.png" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"7Ian8":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "bbasv4.eba51d4d.png" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"6QZcy":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$8bef = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
