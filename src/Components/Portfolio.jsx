@@ -27,6 +27,7 @@ import its_image from "../images/ITS.gif";
 import rnd_image from "../images/rnd_robot.gif";
 import lego_image from "../images/lego_opencv.gif";
 import gitbook_image from "../images/Gitbook.png";
+import asv_image from "../images/bbasv4.png";
 
 /**
  * Project list
@@ -36,8 +37,17 @@ import gitbook_image from "../images/Gitbook.png";
  */
 const ongoingProjectList = [
   {
+    title: "NUS Bumblebee (ASV) 🚢",
+    description:
+      "Part of the Software Team, working on Perception for the Autonomous Surface Vehicle (ASV) and preparing for RobotX 2024.",
+    url: "https://bumblebee.sg/",
+    tag: ["Robotics", "Perception", "ROS"],
+    image: asv_image,
+  },
+  {
     title: "Robot Resources 📚",
-    description: "A collection of notes and resources for Robotics. I try to keep it updated with my learning journey in Robotics",
+    description:
+      "A collection of notes and resources for Robotics. I try to keep it updated with my learning journey in Robotics",
     url: "https://leftover-ice.gitbook.io/resources",
     tag: ["Gitbook", "ROS", "Tutorials", "Robotics"],
     image: gitbook_image,
@@ -47,56 +57,73 @@ const ongoingProjectList = [
 const completedProjectList = [
   {
     title: "Hornet 9.0 🚢",
-    description: "Autonomous Underwater Vehicle. Competed in SAUVC 2024.",
+    description: "NUS Bumblebee's Hornet Program, a 9-month training program to build a Autonomous Underwater Vehicle (AUV) from scratch. \n\
+    Part of the Software Team, worked on Perception. \n\
+    Competed in Singapore Autonomous Underwater Vehicle Challenge (SAUVC) 2024.",
     url: "https://github.com/Hornet9Software",
     tag: ["ROS", "OpenCV", "YOLO", "Robotics"],
     image: hornet_image,
+    completedDate: "April 2024",
   },
   {
     title: "Alex - Search & Rescue Robot 🤖",
     description:
-      "Tele-operated vehicle with search and rescue functions using Raspberry Pi, Arduino Uno, ROS, and Lidar.",
+      "Tele-operated vehicle with search and rescue functions using Raspberry Pi, Arduino Uno, ROS, and Lidar. \n\
+      Done as a group project for CG2111A course which focuses on Bare Metal Programming and secure networking with TLS.",
     url: "https://github.com/ShengBin-101/alex_ws",
-    tag: ["ROS", "Raspberry Pi", "Arduino", "Bare Metal Programming"],
+    tag: ["ROS", "Raspberry Pi", "Bare Metal Programming", "TLS"],
     image: alex_image,
+    completedDate: "April 2024",
   },
   {
     title: "FPGA Project 💻",
     description:
-      "Programmed a multiplayer game involving inter-board serial communication for synchronisation of state machines.",
+      "Programmed a multiplayer game involving inter-board serial communication for synchronisation of state machines. \n\
+      Done as a group project for a Digital System Design course (EE2026).",
     url: "https://github.com/ShengBin-101/alex_ws",
     tag: ["FPGA", "VHDL"],
     image: fpga_image,
+    completedDate: "April 2024",
   },
   {
     title: "mBot - Maze Solving Robot 🤖",
     description:
-      "Autonomous robot that can solve a maze, detect and process data from the environment using Arduino Uno.",
+      "Done as a group project for CG1111A. \n\
+      An autonomous robot that can solve a maze, detect and process data from the environment using Arduino Uno. \n\
+      Utilizes PID control for line following and obstacle avoidance and K-NN algorithm for colour identification.",
     url: "https://github.com/ShengBin-101/CG1111A-Final-Project",
     tag: ["Arduino"],
     image: mbot_image,
+    completedDate: "November 2023",
   },
   {
     title: "Intelligent Transport System 🚦",
     description:
-      "Streamlines on-campus Autonomous Vehicle(MooVita) trials with dynamic roadblocks. Cameras monitor traffic for real-time traffic analysis and Microcontrollers enable traffic prioritization at junctions.",
+      "Done as a Final Year Project in Ngee Ann Poly (2 person team). \n\
+      Streamlines on-campus Autonomous Vehicle(AV) trials with real-time traffic analysis and enable traffic prioritization for AVs at junctions.",
     url: "https://github.com/tanxuanyun/Tiny_YOLO_Vehicle_Detection_and_Counting",
-    tag: ["Microcontroller (ESP32)", "Deep Learning (Tiny-Yolo)"],
+    tag: ["Microcontroller (ESP32)", "Deep Learning (Tiny-Yolo)", "Bluetooth Low Energy (BLE)"],
     image: its_image,
+    completedDate: "October 2020",
+  },
+  {
+    title: "Lego Brick Detection 📷",
+    description:
+      "Done as an assignment for a computer vision (OpenCV) course in Python.\n\
+    A lego detection and counting program using image processing techniques for identification.",
+    url: "https://github.com/ShengBin-101/lego-brick-detection",
+    tag: ["Python", "OpenCV", "HTML/CSS/JavaScript"],
+    image: lego_image,
+    completedDate: "October 2020",
   },
   {
     title: "Autonomous Robot Car 🚗",
     description:
-      "Developed teaching materials to guide students with hardware/electronics assembly and ROS basics to future students.",
+      "Developed teaching materials to guide students with hardware/electronics assembly and ROS basics to future students. \n\
+      This was also my first time working with ROS.",
     tag: ["ROS", "3D CAD", "Raspberry Pi"],
     image: rnd_image,
-  },
-  {
-    title: "Lego Brick Detection 📷",
-    description: "A lego detection and counting program.",
-    url: "https://github.com/ShengBin-101/lego-brick-detection",
-    tag: ["Python", "OpenCV", "HTML/CSS/JavaScript"],
-    image: lego_image,
+    completedDate: "April 2020",
   },
 ];
 
@@ -112,16 +139,18 @@ const Portfolio = () => {
               <div className="project-image">
                 <img src={project.image} alt={project.title} />
               </div>
-              <div className="project-description">
+              <div className="project-description style={{ textAlign: 'center' }" >
                 <a href={project.url} target="_blank" rel="noopener noreferrer">
                   <h3>{project.title}</h3>
                 </a>
-                <div>
-                  <p className="small">{project.description}</p>
+                {/* Split description into paragraphs */}
+                {project.description.split('\n').map((paragraph, index) => (
+                  <p className="small" key={index} style={{ textAlign: 'left', paddingInline: '20px' }}>{paragraph}</p>
+                ))}
+                {/* Project Tags */}
+                <div className="tags-container" style={{ textAlign: 'center' }}> 
                   {project.tag.map((tag) => (
-                    <p className="tag" key={tag}>
-                      {tag}
-                    </p>
+                    <p className="tag" key={tag}>{tag}</p>
                   ))}
                 </div>
               </div>
@@ -138,16 +167,23 @@ const Portfolio = () => {
               <div className="project-image">
                 <img src={project.image} alt={project.title} />
               </div>
-              <div className="project-description">
+              <div className="project-description" style={{ textAlign: 'center' }}>
+                {/* Project Title */}
                 <a href={project.url} target="_blank" rel="noopener noreferrer">
-                  <h3>{project.title}</h3>
+                    <h3>{project.title}</h3>
                 </a>
-                <div>
-                  <p className="small">{project.description}</p>
+                {/* Project Date */}
+                <p className="small">
+                  Completed on {project.completedDate}
+                </p>
+                {/* Split description into paragraphs */}
+                {project.description.split('\n').map((paragraph, index) => (
+                  <p className="small" key={index} style={{ textAlign: 'left', paddingInline: '20px' }}>{paragraph}</p>
+                ))}
+                {/* Project Tags */}
+                <div className="tags-container" style={{ textAlign: 'center' }}> 
                   {project.tag.map((tag) => (
-                    <p className="tag" key={tag}>
-                      {tag}
-                    </p>
+                    <p className="tag" key={tag}>{tag}</p>
                   ))}
                 </div>
               </div>
