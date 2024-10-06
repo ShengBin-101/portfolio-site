@@ -27226,7 +27226,7 @@ const toolList = [
             lineNumber: 38,
             columnNumber: 5
         }, undefined),
-        "Currently doing a Summer Internship at DSO National Laboratories.",
+        "Open for Summer Internship in 2025 (13 May - 25 July).",
         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
             fileName: "src/Components/About.jsx",
             lineNumber: 40,
@@ -28942,7 +28942,7 @@ var _rndRobotGif = require("../images/rnd_robot.gif");
 var _rndRobotGifDefault = parcelHelpers.interopDefault(_rndRobotGif);
 var _legoOpencvGif = require("../images/lego_opencv.gif");
 var _legoOpencvGifDefault = parcelHelpers.interopDefault(_legoOpencvGif);
-var _gitbookPng = require("../images/Gitbook.png");
+var _gitbookPng = require("../images/gitbook.png");
 var _gitbookPngDefault = parcelHelpers.interopDefault(_gitbookPng);
 var _bbasv4Png = require("../images/bbasv4.png");
 var _bbasv4PngDefault = parcelHelpers.interopDefault(_bbasv4Png);
@@ -28964,7 +28964,7 @@ var _bbasv4PngDefault = parcelHelpers.interopDefault(_bbasv4Png);
         image: (0, _bbasv4PngDefault.default)
     },
     {
-        title: "Robot Resources \uD83D\uDCDA",
+        title: "Gitbook \uD83D\uDCDA",
         description: "A collection of notes and resources for Robotics. I try to keep it updated with my learning journey in Robotics",
         url: "https://leftover-ice.gitbook.io/resources",
         tag: [
@@ -29306,7 +29306,7 @@ $RefreshReg$(_c, "Portfolio");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/fpga.gif":"kXbVP","../images/Hornet9.gif":"eV8fU","../images/alex.gif":"du1IH","../images/mbot.gif":"fIUeX","../images/ITS.gif":"eZ4lQ","../images/rnd_robot.gif":"ksld7","../images/lego_opencv.gif":"4JMYU","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/Gitbook.png":"jrIqb","../images/bbasv4.png":"7Ian8"}],"kXbVP":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/fpga.gif":"kXbVP","../images/Hornet9.gif":"eV8fU","../images/alex.gif":"du1IH","../images/mbot.gif":"fIUeX","../images/ITS.gif":"eZ4lQ","../images/rnd_robot.gif":"ksld7","../images/lego_opencv.gif":"4JMYU","../images/bbasv4.png":"7Ian8","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/gitbook.png":"hJ1Go"}],"kXbVP":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "fpga.e2abe8f6.gif" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"eV8fU":[function(require,module,exports) {
@@ -29327,11 +29327,11 @@ module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "rnd_ro
 },{"./helpers/bundle-url":"lgJ39"}],"4JMYU":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "lego_opencv.266d497a.gif" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}],"jrIqb":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "Gitbook.010bdf0d.png" + "?" + Date.now();
-
 },{"./helpers/bundle-url":"lgJ39"}],"7Ian8":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "bbasv4.eba51d4d.png" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"hJ1Go":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "gitbook.2f2e5635.png" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"6QZcy":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$8bef = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
