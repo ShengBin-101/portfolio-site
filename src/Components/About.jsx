@@ -36,7 +36,7 @@ const detailOrQuote = (
   <span>
     Passionate in Robot Autonomy and Computer Vision. 
     <br />
-    Currently doing a Summer Internship at DSO National Laboratories.
+    Open for Summer Internship in 2025 (13 May - 25 July).
     <br />
     <br />
     I am also part of <a href="https://bumblebee.sg/" className="glowing-link">NUS Team Bumblebee</a> as a Software Engineer, working on the perception stack for our Autonomous Surface Vessel in preparation for <a href="https://robotx.org/programs/2024/" target="_blank" rel="noopener noreferrer" className="glowing-link">

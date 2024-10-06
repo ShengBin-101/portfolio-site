@@ -26,7 +26,7 @@ import mbot_image from "../images/mbot.gif";
 import its_image from "../images/ITS.gif";
 import rnd_image from "../images/rnd_robot.gif";
 import lego_image from "../images/lego_opencv.gif";
-import gitbook_image from "../images/Gitbook.png";
+import gitbook_image from "../images/gitbook.png";
 import asv_image from "../images/bbasv4.png";
 
 /**
@@ -45,7 +45,7 @@ const ongoingProjectList = [
     image: asv_image,
   },
   {
-    title: "Robot Resources 📚",
+    title: "Gitbook 📚",
     description:
       "A collection of notes and resources for Robotics. I try to keep it updated with my learning journey in Robotics",
     url: "https://leftover-ice.gitbook.io/resources",
