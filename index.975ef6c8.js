@@ -27278,19 +27278,6 @@ const toolList = [
             fileName: "src/Components/About.jsx",
             lineNumber: 47,
             columnNumber: 5
-        }, undefined),
-        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("iframe", {
-            width: "560",
-            height: "315",
-            src: "https://www.youtube.com/watch?v=yFxzuZrMCMc",
-            title: "YouTube video player",
-            frameBorder: "0",
-            allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
-            allowFullScreen: true
-        }, void 0, false, {
-            fileName: "src/Components/About.jsx",
-            lineNumber: 48,
-            columnNumber: 5
         }, undefined)
     ]
 }, void 0, true, {
@@ -27310,7 +27297,7 @@ const About = ()=>{
                         children: "About Myself"
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 64,
+                        lineNumber: 55,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27318,7 +27305,7 @@ const About = ()=>{
                         children: description
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 65,
+                        lineNumber: 56,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27326,13 +27313,13 @@ const About = ()=>{
                         children: detailOrQuote
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 66,
+                        lineNumber: 57,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/About.jsx",
-                lineNumber: 63,
+                lineNumber: 54,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27342,7 +27329,7 @@ const About = ()=>{
                         children: "Skills"
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 69,
+                        lineNumber: 60,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27356,7 +27343,7 @@ const About = ()=>{
                                         children: "Languages"
                                     }, void 0, false, {
                                         fileName: "src/Components/About.jsx",
-                                        lineNumber: 72,
+                                        lineNumber: 63,
                                         columnNumber: 13
                                     }, undefined),
                                     languagesList.map((skill, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27364,13 +27351,13 @@ const About = ()=>{
                                             children: skill
                                         }, index, false, {
                                             fileName: "src/Components/About.jsx",
-                                            lineNumber: 74,
+                                            lineNumber: 65,
                                             columnNumber: 15
                                         }, undefined))
                                 ]
                             }, void 0, true, {
                                 fileName: "src/Components/About.jsx",
-                                lineNumber: 71,
+                                lineNumber: 62,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27381,7 +27368,7 @@ const About = ()=>{
                                         children: "Hardware"
                                     }, void 0, false, {
                                         fileName: "src/Components/About.jsx",
-                                        lineNumber: 80,
+                                        lineNumber: 71,
                                         columnNumber: 13
                                     }, undefined),
                                     hardwareList.map((skill, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27389,13 +27376,13 @@ const About = ()=>{
                                             children: skill
                                         }, index, false, {
                                             fileName: "src/Components/About.jsx",
-                                            lineNumber: 82,
+                                            lineNumber: 73,
                                             columnNumber: 15
                                         }, undefined))
                                 ]
                             }, void 0, true, {
                                 fileName: "src/Components/About.jsx",
-                                lineNumber: 79,
+                                lineNumber: 70,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27406,7 +27393,7 @@ const About = ()=>{
                                         children: "Frameworks"
                                     }, void 0, false, {
                                         fileName: "src/Components/About.jsx",
-                                        lineNumber: 88,
+                                        lineNumber: 79,
                                         columnNumber: 13
                                     }, undefined),
                                     frameworkList.map((skill, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27414,13 +27401,13 @@ const About = ()=>{
                                             children: skill
                                         }, index, false, {
                                             fileName: "src/Components/About.jsx",
-                                            lineNumber: 90,
+                                            lineNumber: 81,
                                             columnNumber: 15
                                         }, undefined))
                                 ]
                             }, void 0, true, {
                                 fileName: "src/Components/About.jsx",
-                                lineNumber: 87,
+                                lineNumber: 78,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27431,7 +27418,7 @@ const About = ()=>{
                                         children: "Database"
                                     }, void 0, false, {
                                         fileName: "src/Components/About.jsx",
-                                        lineNumber: 96,
+                                        lineNumber: 87,
                                         columnNumber: 13
                                     }, undefined),
                                     databaseList.map((skill, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27439,13 +27426,13 @@ const About = ()=>{
                                             children: skill
                                         }, index, false, {
                                             fileName: "src/Components/About.jsx",
-                                            lineNumber: 98,
+                                            lineNumber: 89,
                                             columnNumber: 15
                                         }, undefined))
                                 ]
                             }, void 0, true, {
                                 fileName: "src/Components/About.jsx",
-                                lineNumber: 95,
+                                lineNumber: 86,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27456,7 +27443,7 @@ const About = ()=>{
                                         children: "Tools"
                                     }, void 0, false, {
                                         fileName: "src/Components/About.jsx",
-                                        lineNumber: 104,
+                                        lineNumber: 95,
                                         columnNumber: 13
                                     }, undefined),
                                     toolList.map((skill, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27464,41 +27451,41 @@ const About = ()=>{
                                             children: skill
                                         }, index, false, {
                                             fileName: "src/Components/About.jsx",
-                                            lineNumber: 106,
+                                            lineNumber: 97,
                                             columnNumber: 15
                                         }, undefined))
                                 ]
                             }, void 0, true, {
                                 fileName: "src/Components/About.jsx",
-                                lineNumber: 103,
+                                lineNumber: 94,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 70,
+                        lineNumber: 61,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 112,
+                        lineNumber: 103,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 113,
+                        lineNumber: 104,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/About.jsx",
-                lineNumber: 68,
+                lineNumber: 59,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/About.jsx",
-        lineNumber: 62,
+        lineNumber: 53,
         columnNumber: 5
     }, undefined);
 };
