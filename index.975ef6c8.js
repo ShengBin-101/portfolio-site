@@ -27259,7 +27259,39 @@ const toolList = [
             lineNumber: 42,
             columnNumber: 212
         }, undefined),
-        "."
+        ".",
+        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+            fileName: "src/Components/About.jsx",
+            lineNumber: 45,
+            columnNumber: 5
+        }, undefined),
+        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+            fileName: "src/Components/About.jsx",
+            lineNumber: 46,
+            columnNumber: 5
+        }, undefined),
+        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+            href: "https://www.youtube.com/watch?v=yFxzuZrMCMc",
+            className: "glowing-link",
+            children: "Watch our video here!."
+        }, void 0, false, {
+            fileName: "src/Components/About.jsx",
+            lineNumber: 47,
+            columnNumber: 5
+        }, undefined),
+        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("iframe", {
+            width: "560",
+            height: "315",
+            src: "https://www.youtube.com/watch?v=yFxzuZrMCMc",
+            title: "YouTube video player",
+            frameBorder: "0",
+            allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
+            allowFullScreen: true
+        }, void 0, false, {
+            fileName: "src/Components/About.jsx",
+            lineNumber: 48,
+            columnNumber: 5
+        }, undefined)
     ]
 }, void 0, true, {
     fileName: "src/Components/About.jsx",
@@ -27278,7 +27310,7 @@ const About = ()=>{
                         children: "About Myself"
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 52,
+                        lineNumber: 64,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27286,7 +27318,7 @@ const About = ()=>{
                         children: description
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 53,
+                        lineNumber: 65,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27294,13 +27326,13 @@ const About = ()=>{
                         children: detailOrQuote
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 54,
+                        lineNumber: 66,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/About.jsx",
-                lineNumber: 51,
+                lineNumber: 63,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27310,7 +27342,7 @@ const About = ()=>{
                         children: "Skills"
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 57,
+                        lineNumber: 69,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27324,7 +27356,7 @@ const About = ()=>{
                                         children: "Languages"
                                     }, void 0, false, {
                                         fileName: "src/Components/About.jsx",
-                                        lineNumber: 60,
+                                        lineNumber: 72,
                                         columnNumber: 13
                                     }, undefined),
                                     languagesList.map((skill, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27332,13 +27364,13 @@ const About = ()=>{
                                             children: skill
                                         }, index, false, {
                                             fileName: "src/Components/About.jsx",
-                                            lineNumber: 62,
+                                            lineNumber: 74,
                                             columnNumber: 15
                                         }, undefined))
                                 ]
                             }, void 0, true, {
                                 fileName: "src/Components/About.jsx",
-                                lineNumber: 59,
+                                lineNumber: 71,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27349,7 +27381,7 @@ const About = ()=>{
                                         children: "Hardware"
                                     }, void 0, false, {
                                         fileName: "src/Components/About.jsx",
-                                        lineNumber: 68,
+                                        lineNumber: 80,
                                         columnNumber: 13
                                     }, undefined),
                                     hardwareList.map((skill, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27357,13 +27389,13 @@ const About = ()=>{
                                             children: skill
                                         }, index, false, {
                                             fileName: "src/Components/About.jsx",
-                                            lineNumber: 70,
+                                            lineNumber: 82,
                                             columnNumber: 15
                                         }, undefined))
                                 ]
                             }, void 0, true, {
                                 fileName: "src/Components/About.jsx",
-                                lineNumber: 67,
+                                lineNumber: 79,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27374,7 +27406,7 @@ const About = ()=>{
                                         children: "Frameworks"
                                     }, void 0, false, {
                                         fileName: "src/Components/About.jsx",
-                                        lineNumber: 76,
+                                        lineNumber: 88,
                                         columnNumber: 13
                                     }, undefined),
                                     frameworkList.map((skill, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27382,13 +27414,13 @@ const About = ()=>{
                                             children: skill
                                         }, index, false, {
                                             fileName: "src/Components/About.jsx",
-                                            lineNumber: 78,
+                                            lineNumber: 90,
                                             columnNumber: 15
                                         }, undefined))
                                 ]
                             }, void 0, true, {
                                 fileName: "src/Components/About.jsx",
-                                lineNumber: 75,
+                                lineNumber: 87,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27399,7 +27431,7 @@ const About = ()=>{
                                         children: "Database"
                                     }, void 0, false, {
                                         fileName: "src/Components/About.jsx",
-                                        lineNumber: 84,
+                                        lineNumber: 96,
                                         columnNumber: 13
                                     }, undefined),
                                     databaseList.map((skill, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27407,13 +27439,13 @@ const About = ()=>{
                                             children: skill
                                         }, index, false, {
                                             fileName: "src/Components/About.jsx",
-                                            lineNumber: 86,
+                                            lineNumber: 98,
                                             columnNumber: 15
                                         }, undefined))
                                 ]
                             }, void 0, true, {
                                 fileName: "src/Components/About.jsx",
-                                lineNumber: 83,
+                                lineNumber: 95,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27424,7 +27456,7 @@ const About = ()=>{
                                         children: "Tools"
                                     }, void 0, false, {
                                         fileName: "src/Components/About.jsx",
-                                        lineNumber: 92,
+                                        lineNumber: 104,
                                         columnNumber: 13
                                     }, undefined),
                                     toolList.map((skill, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27432,41 +27464,41 @@ const About = ()=>{
                                             children: skill
                                         }, index, false, {
                                             fileName: "src/Components/About.jsx",
-                                            lineNumber: 94,
+                                            lineNumber: 106,
                                             columnNumber: 15
                                         }, undefined))
                                 ]
                             }, void 0, true, {
                                 fileName: "src/Components/About.jsx",
-                                lineNumber: 91,
+                                lineNumber: 103,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 58,
+                        lineNumber: 70,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 100,
+                        lineNumber: 112,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 101,
+                        lineNumber: 113,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/About.jsx",
-                lineNumber: 56,
+                lineNumber: 68,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/About.jsx",
-        lineNumber: 50,
+        lineNumber: 62,
         columnNumber: 5
     }, undefined);
 };
@@ -29306,7 +29338,7 @@ $RefreshReg$(_c, "Portfolio");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/fpga.gif":"kXbVP","../images/Hornet9.gif":"eV8fU","../images/alex.gif":"du1IH","../images/mbot.gif":"fIUeX","../images/ITS.gif":"eZ4lQ","../images/rnd_robot.gif":"ksld7","../images/lego_opencv.gif":"4JMYU","../images/bbasv4.png":"7Ian8","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/gitbook.png":"hJ1Go"}],"kXbVP":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/fpga.gif":"kXbVP","../images/Hornet9.gif":"eV8fU","../images/alex.gif":"du1IH","../images/mbot.gif":"fIUeX","../images/ITS.gif":"eZ4lQ","../images/rnd_robot.gif":"ksld7","../images/lego_opencv.gif":"4JMYU","../images/gitbook.png":"hJ1Go","../images/bbasv4.png":"7Ian8","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"kXbVP":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "fpga.e2abe8f6.gif" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"eV8fU":[function(require,module,exports) {
@@ -29327,11 +29359,11 @@ module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "rnd_ro
 },{"./helpers/bundle-url":"lgJ39"}],"4JMYU":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "lego_opencv.266d497a.gif" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}],"7Ian8":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "bbasv4.eba51d4d.png" + "?" + Date.now();
-
 },{"./helpers/bundle-url":"lgJ39"}],"hJ1Go":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "gitbook.2f2e5635.png" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"7Ian8":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "bbasv4.eba51d4d.png" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"6QZcy":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$8bef = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
