@@ -9,7 +9,7 @@ const Contact = () => {
 
   const handleDownloadResume = () => {
     window.open(
-      "https://drive.google.com/file/d/1aVAWHgs6ZbV_-k0vWi1vlk7l1w63ng6A/view?usp=sharing",
+      "https://drive.google.com/file/d/1pkFe8WBv0-ltC386mwZRoK-RsD-a9TwP/view?usp=drive_link",
       "_blank"
     );
   };

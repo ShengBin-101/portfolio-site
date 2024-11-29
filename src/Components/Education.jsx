@@ -23,6 +23,8 @@ const Education = () => {
             <h4>Co-Curricular</h4>
             <ul>
               <li>NUS Team Bumblebee - Software Engineer</li>
+              <li>NUS Team Bumblebee - Maritime RobotX Challenge 2024 Champions</li>
+              <li>Hornet X Programme - Software Subteam Lead (Facilitator)</li>
               <li>Hornet 9.0 Programme - Perception/Localisation Lead</li>
             </ul>
             <p className="large">📆 Graduating May 2026</p>
@@ -36,6 +38,8 @@ const Education = () => {
             <h4>Co-Curricular</h4>
             <ul>
               <li>NUS Team Bumblebee - Software Engineer</li>
+              <li>NUS Team Bumblebee - Maritime RobotX Challenge 2024 Champions</li>
+              <li>Hornet X Programme - Software Subteam Lead (Facilitator)</li>
               <li>Hornet 9.0 Programme - Perception/Localisation Lead</li>
             </ul>
             <p>📆 Graduating May 2026</p>

@@ -37,14 +37,6 @@ import asv_image from "../images/bbasv4.png";
  */
 const ongoingProjectList = [
   {
-    title: "NUS Bumblebee (ASV) 🚢",
-    description:
-      "Part of the Software Team, working on Perception for the Autonomous Surface Vehicle (ASV) and preparing for RobotX 2024.",
-    url: "https://bumblebee.sg/",
-    tag: ["Robotics", "Perception", "ROS"],
-    image: asv_image,
-  },
-  {
     title: "Gitbook 📚",
     description:
       "A collection of notes and resources for Robotics. I try to keep it updated with my learning journey in Robotics",
@@ -55,6 +47,14 @@ const ongoingProjectList = [
 ];
 
 const completedProjectList = [
+  {
+    title: "Maritime RobotX Challenge 2024 🚢",
+    description:
+      "Under Team Bumblebee, I worked on LiDAR and Camera Perception for the Autonomous Surface Vehicle (ASV), this vehicle, along with the drone, won first place.",
+    url: "https://bumblebee.sg/competitions/robotx/robotx24/2024/",
+    tag: ["Robotics", "LiDAR-Camera Perception", "ROS"],
+    image: asv_image,
+  },
   {
     title: "Hornet 9.0 🚢",
     description: "NUS Bumblebee's Hornet Program, a 9-month training program to build a Autonomous Underwater Vehicle (AUV) from scratch. \n\

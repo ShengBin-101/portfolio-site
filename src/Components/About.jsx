@@ -39,9 +39,7 @@ const detailOrQuote = (
     Open for Summer Internship in 2025 (13 May - 25 July).
     <br />
     <br />
-    I am also part of <a href="https://bumblebee.sg/" className="glowing-link">NUS Team Bumblebee</a> as a Software Engineer, working on the perception stack for our Autonomous Surface Vessel in preparation for <a href="https://robotx.org/programs/2024/" target="_blank" rel="noopener noreferrer" className="glowing-link">
-      RobotX 2024
-    </a>.
+    I am also part of <a href="https://bumblebee.sg/" className="glowing-link">NUS Team Bumblebee</a> as a Software Engineer.
   </span>
 );
 
