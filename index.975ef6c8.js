@@ -27247,38 +27247,7 @@ const toolList = [
             lineNumber: 42,
             columnNumber: 23
         }, undefined),
-        " as a Software Engineer, working on the perception stack for our Autonomous Surface Vessel in preparation for ",
-        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-            href: "https://robotx.org/programs/2024/",
-            target: "_blank",
-            rel: "noopener noreferrer",
-            className: "glowing-link",
-            children: "RobotX 2024"
-        }, void 0, false, {
-            fileName: "src/Components/About.jsx",
-            lineNumber: 42,
-            columnNumber: 212
-        }, undefined),
-        ".",
-        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-            fileName: "src/Components/About.jsx",
-            lineNumber: 45,
-            columnNumber: 5
-        }, undefined),
-        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-            fileName: "src/Components/About.jsx",
-            lineNumber: 46,
-            columnNumber: 5
-        }, undefined),
-        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-            href: "https://www.youtube.com/watch?v=yFxzuZrMCMc",
-            className: "glowing-link",
-            children: "Watch our video here!."
-        }, void 0, false, {
-            fileName: "src/Components/About.jsx",
-            lineNumber: 47,
-            columnNumber: 5
-        }, undefined)
+        " as a Software Engineer."
     ]
 }, void 0, true, {
     fileName: "src/Components/About.jsx",
@@ -27297,7 +27266,7 @@ const About = ()=>{
                         children: "About Myself"
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 55,
+                        lineNumber: 50,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27305,7 +27274,7 @@ const About = ()=>{
                         children: description
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 56,
+                        lineNumber: 51,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27313,13 +27282,13 @@ const About = ()=>{
                         children: detailOrQuote
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 57,
+                        lineNumber: 52,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/About.jsx",
-                lineNumber: 54,
+                lineNumber: 49,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27329,7 +27298,7 @@ const About = ()=>{
                         children: "Skills"
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 60,
+                        lineNumber: 55,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27343,7 +27312,7 @@ const About = ()=>{
                                         children: "Languages"
                                     }, void 0, false, {
                                         fileName: "src/Components/About.jsx",
-                                        lineNumber: 63,
+                                        lineNumber: 58,
                                         columnNumber: 13
                                     }, undefined),
                                     languagesList.map((skill, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27351,13 +27320,13 @@ const About = ()=>{
                                             children: skill
                                         }, index, false, {
                                             fileName: "src/Components/About.jsx",
-                                            lineNumber: 65,
+                                            lineNumber: 60,
                                             columnNumber: 15
                                         }, undefined))
                                 ]
                             }, void 0, true, {
                                 fileName: "src/Components/About.jsx",
-                                lineNumber: 62,
+                                lineNumber: 57,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27368,7 +27337,7 @@ const About = ()=>{
                                         children: "Hardware"
                                     }, void 0, false, {
                                         fileName: "src/Components/About.jsx",
-                                        lineNumber: 71,
+                                        lineNumber: 66,
                                         columnNumber: 13
                                     }, undefined),
                                     hardwareList.map((skill, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27376,13 +27345,13 @@ const About = ()=>{
                                             children: skill
                                         }, index, false, {
                                             fileName: "src/Components/About.jsx",
-                                            lineNumber: 73,
+                                            lineNumber: 68,
                                             columnNumber: 15
                                         }, undefined))
                                 ]
                             }, void 0, true, {
                                 fileName: "src/Components/About.jsx",
-                                lineNumber: 70,
+                                lineNumber: 65,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27393,7 +27362,7 @@ const About = ()=>{
                                         children: "Frameworks"
                                     }, void 0, false, {
                                         fileName: "src/Components/About.jsx",
-                                        lineNumber: 79,
+                                        lineNumber: 74,
                                         columnNumber: 13
                                     }, undefined),
                                     frameworkList.map((skill, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27401,13 +27370,13 @@ const About = ()=>{
                                             children: skill
                                         }, index, false, {
                                             fileName: "src/Components/About.jsx",
-                                            lineNumber: 81,
+                                            lineNumber: 76,
                                             columnNumber: 15
                                         }, undefined))
                                 ]
                             }, void 0, true, {
                                 fileName: "src/Components/About.jsx",
-                                lineNumber: 78,
+                                lineNumber: 73,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27418,7 +27387,7 @@ const About = ()=>{
                                         children: "Database"
                                     }, void 0, false, {
                                         fileName: "src/Components/About.jsx",
-                                        lineNumber: 87,
+                                        lineNumber: 82,
                                         columnNumber: 13
                                     }, undefined),
                                     databaseList.map((skill, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27426,13 +27395,13 @@ const About = ()=>{
                                             children: skill
                                         }, index, false, {
                                             fileName: "src/Components/About.jsx",
-                                            lineNumber: 89,
+                                            lineNumber: 84,
                                             columnNumber: 15
                                         }, undefined))
                                 ]
                             }, void 0, true, {
                                 fileName: "src/Components/About.jsx",
-                                lineNumber: 86,
+                                lineNumber: 81,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27443,7 +27412,7 @@ const About = ()=>{
                                         children: "Tools"
                                     }, void 0, false, {
                                         fileName: "src/Components/About.jsx",
-                                        lineNumber: 95,
+                                        lineNumber: 90,
                                         columnNumber: 13
                                     }, undefined),
                                     toolList.map((skill, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27451,41 +27420,41 @@ const About = ()=>{
                                             children: skill
                                         }, index, false, {
                                             fileName: "src/Components/About.jsx",
-                                            lineNumber: 97,
+                                            lineNumber: 92,
                                             columnNumber: 15
                                         }, undefined))
                                 ]
                             }, void 0, true, {
                                 fileName: "src/Components/About.jsx",
-                                lineNumber: 94,
+                                lineNumber: 89,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 61,
+                        lineNumber: 56,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 103,
+                        lineNumber: 98,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 104,
+                        lineNumber: 99,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/About.jsx",
-                lineNumber: 59,
+                lineNumber: 54,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/About.jsx",
-        lineNumber: 53,
+        lineNumber: 48,
         columnNumber: 5
     }, undefined);
 };
@@ -28972,17 +28941,6 @@ var _bbasv4PngDefault = parcelHelpers.interopDefault(_bbasv4Png);
  * links section. Below is a sample, update to reflect links you'd like to highlight.
  */ const ongoingProjectList = [
     {
-        title: "NUS Bumblebee (ASV) \uD83D\uDEA2",
-        description: "Part of the Software Team, working on Perception for the Autonomous Surface Vehicle (ASV) and preparing for RobotX 2024.",
-        url: "https://bumblebee.sg/",
-        tag: [
-            "Robotics",
-            "Perception",
-            "ROS"
-        ],
-        image: (0, _bbasv4PngDefault.default)
-    },
-    {
         title: "Gitbook \uD83D\uDCDA",
         description: "A collection of notes and resources for Robotics. I try to keep it updated with my learning journey in Robotics",
         url: "https://leftover-ice.gitbook.io/resources",
@@ -28996,6 +28954,17 @@ var _bbasv4PngDefault = parcelHelpers.interopDefault(_bbasv4Png);
     }, 
 ];
 const completedProjectList = [
+    {
+        title: "Maritime RobotX Challenge 2024 \uD83D\uDEA2",
+        description: "Under Team Bumblebee, I worked on LiDAR and Camera Perception for the Autonomous Surface Vehicle (ASV), this vehicle, along with the drone, won first place.",
+        url: "https://bumblebee.sg/competitions/robotx/robotx24/2024/",
+        tag: [
+            "Robotics",
+            "LiDAR-Camera Perception",
+            "ROS"
+        ],
+        image: (0, _bbasv4PngDefault.default)
+    },
     {
         title: "Hornet 9.0 \uD83D\uDEA2",
         description: "NUS Bumblebee's Hornet Program, a 9-month training program to build a Autonomous Underwater Vehicle (AUV) from scratch. \n    Part of the Software Team, worked on Perception. \n    Competed in Singapore Autonomous Underwater Vehicle Challenge (SAUVC) 2024.",
@@ -29433,10 +29402,24 @@ const Education = ()=>{
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                        children: "Hornet 9.0 Programme - Perception/Localisation Lead"
+                                        children: "NUS Team Bumblebee - Maritime RobotX Challenge 2024 Champions"
                                     }, void 0, false, {
                                         fileName: "src/Components/Education.jsx",
                                         lineNumber: 26,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: "Hornet X Programme - Software Subteam Lead (Facilitator)"
+                                    }, void 0, false, {
+                                        fileName: "src/Components/Education.jsx",
+                                        lineNumber: 27,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: "Hornet 9.0 Programme - Perception/Localisation Lead"
+                                    }, void 0, false, {
+                                        fileName: "src/Components/Education.jsx",
+                                        lineNumber: 28,
                                         columnNumber: 15
                                     }, undefined)
                                 ]
@@ -29450,7 +29433,7 @@ const Education = ()=>{
                                 children: "\uD83D\uDCC6 Graduating May 2026"
                             }, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 28,
+                                lineNumber: 30,
                                 columnNumber: 13
                             }, undefined)
                         ]
@@ -29465,7 +29448,7 @@ const Education = ()=>{
                                 children: "Achievements"
                             }, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 32,
+                                lineNumber: 34,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -29473,19 +29456,19 @@ const Education = ()=>{
                                     children: "NUS Merit Scholarship Recipient"
                                 }, void 0, false, {
                                     fileName: "src/Components/Education.jsx",
-                                    lineNumber: 34,
+                                    lineNumber: 36,
                                     columnNumber: 15
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 33,
+                                lineNumber: 35,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
                                 children: "Co-Curricular"
                             }, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 36,
+                                lineNumber: 38,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -29494,33 +29477,47 @@ const Education = ()=>{
                                         children: "NUS Team Bumblebee - Software Engineer"
                                     }, void 0, false, {
                                         fileName: "src/Components/Education.jsx",
-                                        lineNumber: 38,
+                                        lineNumber: 40,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: "NUS Team Bumblebee - Maritime RobotX Challenge 2024 Champions"
+                                    }, void 0, false, {
+                                        fileName: "src/Components/Education.jsx",
+                                        lineNumber: 41,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: "Hornet X Programme - Software Subteam Lead (Facilitator)"
+                                    }, void 0, false, {
+                                        fileName: "src/Components/Education.jsx",
+                                        lineNumber: 42,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                         children: "Hornet 9.0 Programme - Perception/Localisation Lead"
                                     }, void 0, false, {
                                         fileName: "src/Components/Education.jsx",
-                                        lineNumber: 39,
+                                        lineNumber: 43,
                                         columnNumber: 15
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 37,
+                                lineNumber: 39,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                 children: "\uD83D\uDCC6 Graduating May 2026"
                             }, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 41,
+                                lineNumber: 45,
                                 columnNumber: 13
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/Components/Education.jsx",
-                        lineNumber: 31,
+                        lineNumber: 33,
                         columnNumber: 11
                     }, undefined)
                 ]
@@ -29538,7 +29535,7 @@ const Education = ()=>{
                         children: isOpen2 ? "▼ Ngee Ann Polytechnic [2018 - 2021]" : "▲ Ngee Ann Polytechnic [2018 - 2021]"
                     }, void 0, false, {
                         fileName: "src/Components/Education.jsx",
-                        lineNumber: 47,
+                        lineNumber: 51,
                         columnNumber: 9
                     }, undefined),
                     isOpen2 ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29548,7 +29545,7 @@ const Education = ()=>{
                                 children: "Achievements"
                             }, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 54,
+                                lineNumber: 58,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -29557,41 +29554,41 @@ const Education = ()=>{
                                         children: "Diploma with Merit"
                                     }, void 0, false, {
                                         fileName: "src/Components/Education.jsx",
-                                        lineNumber: 56,
+                                        lineNumber: 60,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                         children: "Lien Ying Chow Scholarship Recipient"
                                     }, void 0, false, {
                                         fileName: "src/Components/Education.jsx",
-                                        lineNumber: 57,
+                                        lineNumber: 61,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                         children: "Placed on Dean's List (2019, 2020)"
                                     }, void 0, false, {
                                         fileName: "src/Components/Education.jsx",
-                                        lineNumber: 58,
+                                        lineNumber: 62,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                         children: "Faculty Merit Award"
                                     }, void 0, false, {
                                         fileName: "src/Components/Education.jsx",
-                                        lineNumber: 59,
+                                        lineNumber: 63,
                                         columnNumber: 15
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 55,
+                                lineNumber: 59,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
                                 children: "Co-Curricular"
                             }, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 61,
+                                lineNumber: 65,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -29599,18 +29596,18 @@ const Education = ()=>{
                                     children: "Archery Club - Team Captain"
                                 }, void 0, false, {
                                     fileName: "src/Components/Education.jsx",
-                                    lineNumber: 63,
+                                    lineNumber: 67,
                                     columnNumber: 15
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 62,
+                                lineNumber: 66,
                                 columnNumber: 13
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/Components/Education.jsx",
-                        lineNumber: 53,
+                        lineNumber: 57,
                         columnNumber: 11
                     }, undefined) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "dropdown-content closed",
@@ -29619,7 +29616,7 @@ const Education = ()=>{
                                 children: "Achievements"
                             }, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 68,
+                                lineNumber: 72,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -29628,41 +29625,41 @@ const Education = ()=>{
                                         children: "Diploma with Merit"
                                     }, void 0, false, {
                                         fileName: "src/Components/Education.jsx",
-                                        lineNumber: 70,
+                                        lineNumber: 74,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                         children: "Lien Ying Chow Scholarship Recipient"
                                     }, void 0, false, {
                                         fileName: "src/Components/Education.jsx",
-                                        lineNumber: 71,
+                                        lineNumber: 75,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                         children: "Placed on Dean's List (2019, 2020)"
                                     }, void 0, false, {
                                         fileName: "src/Components/Education.jsx",
-                                        lineNumber: 72,
+                                        lineNumber: 76,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                         children: "Faculty Merit Award"
                                     }, void 0, false, {
                                         fileName: "src/Components/Education.jsx",
-                                        lineNumber: 73,
+                                        lineNumber: 77,
                                         columnNumber: 15
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 69,
+                                lineNumber: 73,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
                                 children: "Co-Curricular"
                             }, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 75,
+                                lineNumber: 79,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -29670,24 +29667,24 @@ const Education = ()=>{
                                     children: "Archery Club - Team Captain"
                                 }, void 0, false, {
                                     fileName: "src/Components/Education.jsx",
-                                    lineNumber: 77,
+                                    lineNumber: 81,
                                     columnNumber: 15
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 76,
+                                lineNumber: 80,
                                 columnNumber: 13
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/Components/Education.jsx",
-                        lineNumber: 67,
+                        lineNumber: 71,
                         columnNumber: 11
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/Education.jsx",
-                lineNumber: 46,
+                lineNumber: 50,
                 columnNumber: 7
             }, undefined)
         ]
@@ -29728,7 +29725,7 @@ const Contact = ()=>{
         setShowForm(!showForm);
     };
     const handleDownloadResume = ()=>{
-        window.open("https://drive.google.com/file/d/1aVAWHgs6ZbV_-k0vWi1vlk7l1w63ng6A/view?usp=sharing", "_blank");
+        window.open("https://drive.google.com/file/d/1pkFe8WBv0-ltC386mwZRoK-RsD-a9TwP/view?usp=drive_link", "_blank");
     };
     const handleSubmitForm = (event)=>{
         event.preventDefault();
