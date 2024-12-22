@@ -29725,7 +29725,7 @@ const Contact = ()=>{
         setShowForm(!showForm);
     };
     const handleDownloadResume = ()=>{
-        window.open("https://drive.google.com/file/d/1pkFe8WBv0-ltC386mwZRoK-RsD-a9TwP/view?usp=drive_link", "_blank");
+        window.open("https://drive.google.com/file/d/1Q__xXWD6pHY7sSg93BtWzNg9xJdKs0Kz/view?usp=sharing", "_blank");
     };
     const handleSubmitForm = (event)=>{
         event.preventDefault();
