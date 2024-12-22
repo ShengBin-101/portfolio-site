@@ -27226,7 +27226,7 @@ const toolList = [
             lineNumber: 38,
             columnNumber: 5
         }, undefined),
-        "Open for Summer Internship in 2025 (13 May - 25 July).",
+        "Open for Summer Internship in 2025 (13 May - 31 July).",
         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
             fileName: "src/Components/About.jsx",
             lineNumber: 40,
