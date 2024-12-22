@@ -36,7 +36,7 @@ const detailOrQuote = (
   <span>
     Passionate in Robot Autonomy and Computer Vision. 
     <br />
-    Open for Summer Internship in 2025 (13 May - 25 July).
+    Open for Summer Internship in 2025 (13 May - 31 July).
     <br />
     <br />
     I am also part of <a href="https://bumblebee.sg/" className="glowing-link">NUS Team Bumblebee</a> as a Software Engineer.
