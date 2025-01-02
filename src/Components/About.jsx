@@ -16,7 +16,7 @@ const description =
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
-const languagesList = ["C/C++", "Python", "HTML/CSS/JavaScript", "Dart"];
+const languagesList = ["C/C++", "Python", "Java", "HTML/CSS/JavaScript", "Dart", "XML"];
 
 const hardwareList = ["Robot Operating System (ROS)", "Arduino", "Verilog"];
 
@@ -24,7 +24,7 @@ const frameworkList = ["React", "Express", "Flutter", "Firebase"];
 
 const databaseList = ["Firestore"];
 
-const toolList = ["Git/GitHub", "Docker", "Kubernetes", "Jupyter Notebook"];
+const toolList = ["Git/GitHub", "Docker", "Kubernetes", "Jupyter Notebook", "Android Studio"];
 
 /**
  * Use this to give more information about what you are passionate about,

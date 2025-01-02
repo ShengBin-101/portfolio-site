@@ -54,6 +54,7 @@ const completedProjectList = [
     url: "https://bumblebee.sg/competitions/robotx/robotx24/2024/",
     tag: ["Robotics", "LiDAR-Camera Perception", "ROS"],
     image: asv_image,
+    completedDate: "October 2024",
   },
   {
     title: "Hornet 9.0 🚢",
