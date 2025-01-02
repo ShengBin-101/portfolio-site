@@ -16,7 +16,7 @@ const description =
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
-const languagesList = ["C/C++", "Python", "Java", "HTML/CSS/JavaScript", "Dart", "XML"];
+const languagesList = ["C/C++", "Python", "Java", "HTML/CSS/JavaScript", "Dart", "XML", "ARM Assembly"];
 
 const hardwareList = ["Robot Operating System (ROS)", "Arduino", "Verilog"];
 
