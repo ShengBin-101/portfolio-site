@@ -29730,7 +29730,7 @@ const Contact = ()=>{
         setShowForm(!showForm);
     };
     const handleDownloadResume = ()=>{
-        window.open("https://drive.google.com/file/d/1eu70AJkg5kzfN7etiw8fBLEnIvi-uEZQ/view?usp=drive_link", "_blank");
+        window.open("https://drive.google.com/file/d/1jX6ecX22MdX2DPUvUvlilZ--uwFp8jvR/view?usp=sharing", "_blank");
     };
     const handleSubmitForm = (event)=>{
         event.preventDefault();
